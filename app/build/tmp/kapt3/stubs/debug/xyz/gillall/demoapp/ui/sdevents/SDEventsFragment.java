@@ -8,7 +8,6 @@ public final class SDEventsFragment extends androidx.fragment.app.Fragment {
     private androidx.navigation.NavController navController;
     private xyz.gillall.demoapp.ui.sdevents.SDEventsViewModel viewModel;
     private xyz.gillall.demoapp.ui.sdevents.SDEventsAdapter sDEventsAdapter;
-    private java.util.HashMap _$_findViewCache;
     
     @org.jetbrains.annotations.NotNull()
     @java.lang.Override()

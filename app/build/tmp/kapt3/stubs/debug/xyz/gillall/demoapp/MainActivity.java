@@ -30,7 +30,6 @@ import java.lang.System;
 public final class MainActivity extends androidx.appcompat.app.AppCompatActivity {
     @org.jetbrains.annotations.NotNull()
     public static final xyz.gillall.demoapp.MainActivity.Companion Companion = null;
-    private java.util.HashMap _$_findViewCache;
     
     @java.lang.Override()
     protected void onCreate(@org.jetbrains.annotations.Nullable()

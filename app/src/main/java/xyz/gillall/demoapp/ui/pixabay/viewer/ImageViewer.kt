@@ -4,16 +4,20 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.animation.Animation
+import android.view.animation.AnimationUtils
+import android.view.animation.LinearInterpolator
+import android.view.animation.RotateAnimation
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import org.koin.androidx.viewmodel.ext.android.getViewModel
-import xyz.gillall.demoapp.MainActivity.Companion.clg
 import xyz.gillall.demoapp.R
 import xyz.gillall.demoapp.databinding.FragmentImageViewerBinding
 import xyz.gillall.demoapp.model.Hit
 import xyz.gillall.demoapp.util.Image.imageFromURL
+
 
 class ImageViewer : Fragment() {
     private lateinit var imgData: Hit
@@ -38,8 +42,20 @@ class ImageViewer : Fragment() {
         binding.lifecycleOwner = this
         navController = NavHostFragment.findNavController(this)
 
-        imgData.webformatURL?.let { imageFromURL(binding.imgHolder, it) }
-        imgData.tags?.let { binding.textView2.text = it }
+
+        //var shake = AnimationUtils.loadAnimation(context, R.anim.shake);
+        /*val anim = RotateAnimation(0f, 350f, 15f, 15f)
+        anim.interpolator = LinearInterpolator()
+        anim.repeatCount = Animation.INFINITE
+        anim.duration = 700*/
+
+        binding.imgHolder.post{
+            imgData.webformatURL?.let { imageFromURL(binding.imgHolder, it) }
+
+            imgData.tags?.let { binding.textView2.text = it }
+            //binding.imgHolder.startAnimation(anim);
+        }
+
 
         return binding.root
     }

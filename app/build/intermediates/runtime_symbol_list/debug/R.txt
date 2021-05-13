@@ -1744,7 +1744,6 @@ int drawable common_google_signin_btn_text_light 0x7f070077
 int drawable common_google_signin_btn_text_light_focused 0x7f070078
 int drawable common_google_signin_btn_text_light_normal 0x7f070079
 int drawable common_google_signin_btn_text_light_normal_background 0x7f07007a
-int drawable defaultevent2 0x7f07007b
 int drawable design_bottom_navigation_item_background 0x7f07007c
 int drawable design_fab_background 0x7f07007d
 int drawable design_ic_visibility 0x7f07007e
@@ -1753,8 +1752,6 @@ int drawable design_password_eye 0x7f070080
 int drawable design_snackbar_background 0x7f070081
 int drawable googleg_disabled_color_18 0x7f070082
 int drawable googleg_standard_color_18 0x7f070083
-int drawable ic_baseline_check_circle_24 0x7f070084
-int drawable ic_baseline_star_24 0x7f070085
 int drawable ic_clock_black_24dp 0x7f070086
 int drawable ic_keyboard_black_24dp 0x7f070087
 int drawable ic_launcher_background 0x7f070088
@@ -2096,7 +2093,6 @@ int id multiply 0x7f080124
 int id nav_controller_view_tag 0x7f080125
 int id nav_host_fragment 0x7f080126
 int id nav_host_fragment_container 0x7f080127
-int id navigation 0x7f080128
 int id navigation_header_container 0x7f080129
 int id never 0x7f08012a
 int id newsImage 0x7f08012b

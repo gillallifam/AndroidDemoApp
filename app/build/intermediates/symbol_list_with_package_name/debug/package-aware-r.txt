@@ -1745,7 +1745,6 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
-drawable defaultevent2
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1754,8 +1753,6 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
-drawable ic_baseline_check_circle_24
-drawable ic_baseline_star_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2097,7 +2094,6 @@ id multiply
 id nav_controller_view_tag
 id nav_host_fragment
 id nav_host_fragment_container
-id navigation
 id navigation_header_container
 id never
 id newsImage

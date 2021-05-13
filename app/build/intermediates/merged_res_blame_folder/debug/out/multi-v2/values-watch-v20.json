@@ -4,7 +4,7 @@
             "outputFile": "/home/gillall/apps/DemoApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/home/gillall/.gradle/caches/transforms-2/files-2.1/13c91eaaed88124c37f66d65d54ff38c/appcompat-1.2.0/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "/home/gillall/.gradle/caches/transforms-2/files-2.1/b70642e695ec6b47ca63b1f818723e65/appcompat-1.2.0/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",
