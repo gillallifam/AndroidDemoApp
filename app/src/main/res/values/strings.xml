@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DemoApp</string>
+    <string name="confirm_checkin">Confirmar participaçao no evento?</string>
+</resources>
