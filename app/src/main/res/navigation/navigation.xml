@@ -37,6 +37,6 @@
     </fragment>
     <fragment
         android:id="@+id/pixabayFragment"
-        android:name="xyz.gillall.demoapp.ui.pixabay.PixabayFragment"
+        android:name="xyz.gillall.demoapp.ui.pixabay.gallery.PixabayFragment"
         android:label="PixabayFragment" />
 </navigation>

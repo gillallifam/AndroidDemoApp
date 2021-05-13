@@ -7,7 +7,7 @@
 
         <variable
             name="viewModel"
-            type="xyz.gillall.demoapp.ui.pixabay.PixabayViewModel" />
+            type="xyz.gillall.demoapp.ui.pixabay.gallery.PixabayViewModel" />
 
     </data>
 
@@ -15,12 +15,13 @@
         android:id="@+id/main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ui.pixabay.PixabayFragment">
+        tools:context=".ui.pixabay.gallery.PixabayFragment">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclePixabay"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layoutAnimation="@anim/layout_animation"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

@@ -14,8 +14,8 @@ import androidx.databinding.ViewDataBinding;
 import java.lang.Deprecated;
 import java.lang.Object;
 import xyz.gillall.demoapp.R;
-import xyz.gillall.demoapp.model.SDEvent;
-import xyz.gillall.demoapp.ui.sdevents.SDEventClickListener;
+import xyz.gillall.demoapp.model.Hit;
+import xyz.gillall.demoapp.ui.pixabay.gallery.HitClickListener;
 
 public abstract class PixabayItemBinding extends ViewDataBinding {
   @NonNull
@@ -28,10 +28,10 @@ public abstract class PixabayItemBinding extends ViewDataBinding {
   public final TextView txtTitle;
 
   @Bindable
-  protected SDEvent mItem;
+  protected Hit mItem;
 
   @Bindable
-  protected SDEventClickListener mClickListener;
+  protected HitClickListener mClickListener;
 
   protected PixabayItemBinding(Object _bindingComponent, View _root, int _localFieldCount,
       ImageView newsImage, TextView txtDesc, TextView txtTitle) {
@@ -41,17 +41,17 @@ public abstract class PixabayItemBinding extends ViewDataBinding {
     this.txtTitle = txtTitle;
   }
 
-  public abstract void setItem(@Nullable SDEvent item);
+  public abstract void setItem(@Nullable Hit item);
 
   @Nullable
-  public SDEvent getItem() {
+  public Hit getItem() {
     return mItem;
   }
 
-  public abstract void setClickListener(@Nullable SDEventClickListener clickListener);
+  public abstract void setClickListener(@Nullable HitClickListener clickListener);
 
   @Nullable
-  public SDEventClickListener getClickListener() {
+  public HitClickListener getClickListener() {
     return mClickListener;
   }
 

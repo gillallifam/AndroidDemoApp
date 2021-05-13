@@ -14,7 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.lang.Deprecated;
 import java.lang.Object;
 import xyz.gillall.demoapp.R;
-import xyz.gillall.demoapp.ui.pixabay.PixabayViewModel;
+import xyz.gillall.demoapp.ui.pixabay.gallery.PixabayViewModel;
 
 public abstract class PixabayFragmentBinding extends ViewDataBinding {
   @NonNull

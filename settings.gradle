@@ -1,2 +1,3 @@
+include ':app:pixabay'
 include ':app'
 rootProject.name = "DemoApp"

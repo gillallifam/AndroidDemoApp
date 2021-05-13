@@ -9,8 +9,8 @@ import retrofit2.converter.gson.GsonConverterFactory
 import xyz.gillall.demoapp.data.remote.PixabayApi
 import xyz.gillall.demoapp.data.remote.SDApi
 import xyz.gillall.demoapp.ui.eventviewer.EventViewerViewModel
-import xyz.gillall.demoapp.ui.pixabay.PixabayRepository
-import xyz.gillall.demoapp.ui.pixabay.PixabayViewModel
+import xyz.gillall.demoapp.ui.pixabay.gallery.PixabayRepository
+import xyz.gillall.demoapp.ui.pixabay.gallery.PixabayViewModel
 import xyz.gillall.demoapp.ui.sdevents.SDEventsRepository
 import xyz.gillall.demoapp.ui.sdevents.SDEventsViewModel
 
@@ -35,7 +35,7 @@ object AppModules {
     }
     private fun providePixabayApi(): PixabayApi {
         return Retrofit.Builder()
-                .baseUrl("https://pixabay.com/api/")
+                .baseUrl("https://pixabay.com/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()
                 .create(PixabayApi::class.java)

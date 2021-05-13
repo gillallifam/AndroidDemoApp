@@ -7,7 +7,7 @@
 
                  
                             
-                                                                     
+                                                                             
 
            
 
@@ -15,12 +15,13 @@
         android:id="@+id/main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ui.pixabay.PixabayFragment" android:tag="layout/pixabay_fragment_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+        tools:context=".ui.pixabay.gallery.PixabayFragment" android:tag="layout/pixabay_fragment_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclePixabay"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layoutAnimation="@anim/layout_animation"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

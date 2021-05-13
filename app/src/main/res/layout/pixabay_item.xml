@@ -4,25 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
+
         <variable
             name="item"
-            type="xyz.gillall.demoapp.model.SDEvent" />
+            type="xyz.gillall.demoapp.model.Hit" />
 
         <variable
             name="clickListener"
-            type="xyz.gillall.demoapp.ui.sdevents.SDEventClickListener" />
+            type="xyz.gillall.demoapp.ui.pixabay.gallery.HitClickListener" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:tag="open"
         android:layout_margin="1dp"
-        android:onClick="@{(view) -> clickListener.onClick(item,view)}">
+        android:onClick="@{(view) -> clickListener.onClick(item,view)}"
+        android:tag="open">
 
         <ImageView
             android:id="@+id/newsImage"
-            imageUrl="@{item.image}"
+            imageUrl="@{item.previewURL}"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="fitXY"
@@ -38,7 +39,7 @@
             android:layout_height="wrap_content"
             android:background="@color/blackTrans"
             android:maxLines="2"
-            android:text="@{item.title}"
+            android:text="@{item.views.toString()}"
             android:textColor="@color/white"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -56,14 +57,13 @@
             android:layout_marginBottom="0dp"
             android:background="@color/blackTrans"
             android:maxLines="2"
-            android:text="@{item.description}"
+            android:text="@{item.downloads.toString()}"
             android:textColor="@color/white"
             android:textSize="12sp"
             app:layout_constraintBottom_toBottomOf="@+id/newsImage"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             tools:text="Description" />
-
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
