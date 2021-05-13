@@ -16,6 +16,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import xyz.gillall.demoapp.databinding.FragmentEventViewerBindingImpl;
+import xyz.gillall.demoapp.databinding.FragmentImageViewerBindingImpl;
 import xyz.gillall.demoapp.databinding.HubFragmentBindingImpl;
 import xyz.gillall.demoapp.databinding.PixabayFragmentBindingImpl;
 import xyz.gillall.demoapp.databinding.PixabayItemBindingImpl;
@@ -25,20 +26,23 @@ import xyz.gillall.demoapp.databinding.SdeventsFragmentBindingImpl;
 public class DataBinderMapperImpl extends DataBinderMapper {
   private static final int LAYOUT_FRAGMENTEVENTVIEWER = 1;
 
-  private static final int LAYOUT_HUBFRAGMENT = 2;
+  private static final int LAYOUT_FRAGMENTIMAGEVIEWER = 2;
 
-  private static final int LAYOUT_PIXABAYFRAGMENT = 3;
+  private static final int LAYOUT_HUBFRAGMENT = 3;
 
-  private static final int LAYOUT_PIXABAYITEM = 4;
+  private static final int LAYOUT_PIXABAYFRAGMENT = 4;
 
-  private static final int LAYOUT_SDEVENTVIEW = 5;
+  private static final int LAYOUT_PIXABAYITEM = 5;
 
-  private static final int LAYOUT_SDEVENTSFRAGMENT = 6;
+  private static final int LAYOUT_SDEVENTVIEW = 6;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(6);
+  private static final int LAYOUT_SDEVENTSFRAGMENT = 7;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(7);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(xyz.gillall.demoapp.R.layout.fragment_event_viewer, LAYOUT_FRAGMENTEVENTVIEWER);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(xyz.gillall.demoapp.R.layout.fragment_image_viewer, LAYOUT_FRAGMENTIMAGEVIEWER);
     INTERNAL_LAYOUT_ID_LOOKUP.put(xyz.gillall.demoapp.R.layout.hub_fragment, LAYOUT_HUBFRAGMENT);
     INTERNAL_LAYOUT_ID_LOOKUP.put(xyz.gillall.demoapp.R.layout.pixabay_fragment, LAYOUT_PIXABAYFRAGMENT);
     INTERNAL_LAYOUT_ID_LOOKUP.put(xyz.gillall.demoapp.R.layout.pixabay_item, LAYOUT_PIXABAYITEM);
@@ -60,6 +64,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new FragmentEventViewerBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for fragment_event_viewer is invalid. Received: " + tag);
+        }
+        case  LAYOUT_FRAGMENTIMAGEVIEWER: {
+          if ("layout/fragment_image_viewer_0".equals(tag)) {
+            return new FragmentImageViewerBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_image_viewer is invalid. Received: " + tag);
         }
         case  LAYOUT_HUBFRAGMENT: {
           if ("layout/hub_fragment_0".equals(tag)) {
@@ -149,10 +159,11 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(6);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(7);
 
     static {
       sKeys.put("layout/fragment_event_viewer_0", xyz.gillall.demoapp.R.layout.fragment_event_viewer);
+      sKeys.put("layout/fragment_image_viewer_0", xyz.gillall.demoapp.R.layout.fragment_image_viewer);
       sKeys.put("layout/hub_fragment_0", xyz.gillall.demoapp.R.layout.hub_fragment);
       sKeys.put("layout/pixabay_fragment_0", xyz.gillall.demoapp.R.layout.pixabay_fragment);
       sKeys.put("layout/pixabay_item_0", xyz.gillall.demoapp.R.layout.pixabay_item);

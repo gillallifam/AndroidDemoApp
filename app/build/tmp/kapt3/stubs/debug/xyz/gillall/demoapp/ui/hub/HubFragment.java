@@ -6,6 +6,7 @@ import java.lang.System;
 public final class HubFragment extends androidx.fragment.app.Fragment {
     private xyz.gillall.demoapp.databinding.HubFragmentBinding binding;
     private androidx.navigation.NavController navController;
+    private java.util.HashMap _$_findViewCache;
     
     @org.jetbrains.annotations.NotNull()
     @java.lang.Override()

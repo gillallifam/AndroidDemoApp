@@ -1,10 +1,7 @@
 package xyz.gillall.demoapp.data.remote
 
 import retrofit2.http.*
-import xyz.gillall.demoapp.model.CheckIn
 import xyz.gillall.demoapp.model.Hits
-import xyz.gillall.demoapp.model.SDEvent
-
 
 interface PixabayApi {
 

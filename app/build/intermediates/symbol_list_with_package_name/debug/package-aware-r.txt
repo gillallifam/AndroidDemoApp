@@ -1870,6 +1870,7 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_pixabayFragment_to_imageViewer
 id action_text
 id actions
 id activity_chooser_view_content
@@ -2010,8 +2011,10 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageViewer
 id image_checkin
 id image_share
+id imgHolder
 id imgPixabay
 id info
 id invisible
@@ -2220,6 +2223,7 @@ id textStart
 id textTop
 id textView
 id textView1
+id textView2
 id textWatcher
 id text_input_end_icon
 id text_input_error_icon
@@ -2349,6 +2353,7 @@ layout design_text_input_start_icon
 layout dialog_checkin
 layout dialog_location
 layout fragment_event_viewer
+layout fragment_image_viewer
 layout hub_fragment
 layout material_chip_input_combo
 layout material_clock_display

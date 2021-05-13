@@ -11,6 +11,7 @@ import xyz.gillall.demoapp.data.remote.SDApi
 import xyz.gillall.demoapp.ui.eventviewer.EventViewerViewModel
 import xyz.gillall.demoapp.ui.pixabay.gallery.PixabayRepository
 import xyz.gillall.demoapp.ui.pixabay.gallery.PixabayViewModel
+import xyz.gillall.demoapp.ui.pixabay.viewer.ImageViewerViewModel
 import xyz.gillall.demoapp.ui.sdevents.SDEventsRepository
 import xyz.gillall.demoapp.ui.sdevents.SDEventsViewModel
 
@@ -22,8 +23,9 @@ object AppModules {
         single(named("PixabayApi")) { providePixabayApi() }
         single { PixabayRepository(get(named("PixabayApi"))) }
         viewModel { SDEventsViewModel(get()) }
-        viewModel { EventViewerViewModel(get(),get()) }
+        viewModel { EventViewerViewModel(get(), get()) }
         viewModel { PixabayViewModel(get()) }
+        viewModel { ImageViewerViewModel(get(), get()) }
     }
 
     private fun provideSDApi(): SDApi {
@@ -33,11 +35,12 @@ object AppModules {
             .build()
             .create(SDApi::class.java)
     }
+
     private fun providePixabayApi(): PixabayApi {
         return Retrofit.Builder()
-                .baseUrl("https://pixabay.com/")
-                .addConverterFactory(GsonConverterFactory.create())
-                .build()
-                .create(PixabayApi::class.java)
+            .baseUrl("https://pixabay.com/")
+            .addConverterFactory(GsonConverterFactory.create())
+            .build()
+            .create(PixabayApi::class.java)
     }
 }

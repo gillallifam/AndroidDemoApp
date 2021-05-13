@@ -32,14 +32,15 @@ class PixabayFragment : Fragment() {
         binding.lifecycleOwner = this
         binding.viewModel = viewModel
         navController = findNavController(this)
-        Toast.makeText(context, "PixabayFragment", Toast.LENGTH_LONG).show()
         setupHits()
         return binding.root
     }
 
     private fun setupHits() {
         hitsAdapter = PixabayAdapter(HitClickListener() { hit, view ->
-            clg(hit.tags)
+            val bundle = Bundle()
+            bundle.putParcelable("hit",hit)
+            navController.navigate(R.id.action_pixabayFragment_to_imageViewer, bundle)
         })
         binding.recyclePixabay.adapter = hitsAdapter
         binding.recyclePixabay.layoutManager =
@@ -48,6 +49,6 @@ class PixabayFragment : Fragment() {
             hitsAdapter.submitList(it.hits)
             binding.recyclePixabay.scheduleLayoutAnimation()
         })
-        viewModel.getPhotos("random", "20")
+        viewModel.getPhotos("random", "10")
     }
 }

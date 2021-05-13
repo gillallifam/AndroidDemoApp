@@ -1,6 +1,10 @@
 package xyz.gillall.demoapp.model
 
-class Hit {
+import android.os.Parcelable
+import kotlinx.android.parcel.Parcelize
+
+@Parcelize
+class Hit: Parcelable {
 
     var id: Int? = null
     var pageURL: String? = null

@@ -6,6 +6,7 @@ INJECTED from /home/gillall/apps/DemoApp/app/src/main/AndroidManifest.xml:2:1-22
 INJECTED from /home/gillall/apps/DemoApp/app/src/main/AndroidManifest.xml:2:1-22:12
 MERGED from [androidx.databinding:databinding-adapters:4.1.3] /home/gillall/.gradle/caches/transforms-2/files-2.1/2f8a695013a2c632fb78b4304d582293/databinding-adapters-4.1.3/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:4.1.3] /home/gillall/.gradle/caches/transforms-2/files-2.1/cd9bcd14691aadd528a8c12f1b1d7d0b/databinding-runtime-4.1.3/AndroidManifest.xml:17:1-24:12
+MERGED from [:app:demolib1] /home/gillall/apps/DemoApp/app/demolib1/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /home/gillall/.gradle/caches/transforms-2/files-2.1/f0197125ceb2ad6ea40f7761e41104cb/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
 MERGED from [io.insert-koin:koin-android-ext:3.0.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/a2faaa29411cbd57501e969696402570/jetified-koin-android-ext-3.0.1/AndroidManifest.xml:2:1-9:12
 MERGED from [io.insert-koin:koin-androidx-workmanager:3.0.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/6c536413a07044a506a3db7e745d2f25/jetified-koin-androidx-workmanager-3.0.1/AndroidManifest.xml:2:1-9:12
@@ -22,7 +23,6 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /home/gillall
 MERGED from [androidx.work:work-runtime-ktx:2.5.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/d0ac8ceb8d967f27621dbf1fa9382ff2/work-runtime-ktx-2.5.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/1053ffa1e70e9bea1070652b9da5a260/jetified-lifecycle-runtime-ktx-2.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/cdae8952ac43f9fa9a3a9b7fa0cdb48d/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.multidex:multidex:2.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/65e0a4687b50817d4a798484338086a6/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-ui:2.3.5] /home/gillall/.gradle/caches/transforms-2/files-2.1/5f543469328415f0c7ff34ad975628e5/navigation-ui-2.3.5/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.3.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/80b06e836596ca7e29c2625ee5a28aa8/material-1.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/gillall/.gradle/caches/transforms-2/files-2.1/64d2dcdf2651faf3835b710a9e5c113e/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
@@ -30,6 +30,7 @@ MERGED from [androidx.appcompat:appcompat:1.2.0] /home/gillall/.gradle/caches/tr
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/ca180d27f7a9407dc2b32ee9747e6800/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-maps:17.0.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/e63897140a989fc89a095186d84366e5/jetified-play-services-maps-17.0.1/AndroidManifest.xml:17:1-44:12
 MERGED from [com.github.bumptech.glide:glide:4.11.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/eea7fb7253d5b9e16592f07ae12e60fd/jetified-glide-4.11.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.multidex:multidex:2.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/65e0a4687b50817d4a798484338086a6/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.databinding:viewbinding:4.1.3] /home/gillall/.gradle/caches/transforms-2/files-2.1/1f4651d3869a46094b930625fe321d4c/jetified-viewbinding-4.1.3/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/278649e52ea96b93652df94762a92a8f/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/5a9b2324a7602a189f777817353b0742/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -171,6 +172,8 @@ MERGED from [androidx.databinding:databinding-adapters:4.1.3] /home/gillall/.gra
 MERGED from [androidx.databinding:databinding-adapters:4.1.3] /home/gillall/.gradle/caches/transforms-2/files-2.1/2f8a695013a2c632fb78b4304d582293/databinding-adapters-4.1.3/AndroidManifest.xml:22:5-44
 MERGED from [androidx.databinding:databinding-runtime:4.1.3] /home/gillall/.gradle/caches/transforms-2/files-2.1/cd9bcd14691aadd528a8c12f1b1d7d0b/databinding-runtime-4.1.3/AndroidManifest.xml:22:5-44
 MERGED from [androidx.databinding:databinding-runtime:4.1.3] /home/gillall/.gradle/caches/transforms-2/files-2.1/cd9bcd14691aadd528a8c12f1b1d7d0b/databinding-runtime-4.1.3/AndroidManifest.xml:22:5-44
+MERGED from [:app:demolib1] /home/gillall/apps/DemoApp/app/demolib1/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:app:demolib1] /home/gillall/apps/DemoApp/app/demolib1/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /home/gillall/.gradle/caches/transforms-2/files-2.1/f0197125ceb2ad6ea40f7761e41104cb/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /home/gillall/.gradle/caches/transforms-2/files-2.1/f0197125ceb2ad6ea40f7761e41104cb/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
 MERGED from [io.insert-koin:koin-android-ext:3.0.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/a2faaa29411cbd57501e969696402570/jetified-koin-android-ext-3.0.1/AndroidManifest.xml:5:5-44
@@ -203,8 +206,6 @@ MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.0] /home/gillall/.grad
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/1053ffa1e70e9bea1070652b9da5a260/jetified-lifecycle-runtime-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/cdae8952ac43f9fa9a3a9b7fa0cdb48d/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/cdae8952ac43f9fa9a3a9b7fa0cdb48d/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.multidex:multidex:2.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/65e0a4687b50817d4a798484338086a6/multidex-2.0.0/AndroidManifest.xml:20:5-43
-MERGED from [androidx.multidex:multidex:2.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/65e0a4687b50817d4a798484338086a6/multidex-2.0.0/AndroidManifest.xml:20:5-43
 MERGED from [androidx.navigation:navigation-ui:2.3.5] /home/gillall/.gradle/caches/transforms-2/files-2.1/5f543469328415f0c7ff34ad975628e5/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui:2.3.5] /home/gillall/.gradle/caches/transforms-2/files-2.1/5f543469328415f0c7ff34ad975628e5/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.3.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/80b06e836596ca7e29c2625ee5a28aa8/material-1.3.0/AndroidManifest.xml:20:5-44
@@ -219,6 +220,8 @@ MERGED from [com.google.android.gms:play-services-maps:17.0.1] /home/gillall/.gr
 MERGED from [com.google.android.gms:play-services-maps:17.0.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/e63897140a989fc89a095186d84366e5/jetified-play-services-maps-17.0.1/AndroidManifest.xml:20:5-44
 MERGED from [com.github.bumptech.glide:glide:4.11.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/eea7fb7253d5b9e16592f07ae12e60fd/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
 MERGED from [com.github.bumptech.glide:glide:4.11.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/eea7fb7253d5b9e16592f07ae12e60fd/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.multidex:multidex:2.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/65e0a4687b50817d4a798484338086a6/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/65e0a4687b50817d4a798484338086a6/multidex-2.0.0/AndroidManifest.xml:20:5-43
 MERGED from [androidx.databinding:viewbinding:4.1.3] /home/gillall/.gradle/caches/transforms-2/files-2.1/1f4651d3869a46094b930625fe321d4c/jetified-viewbinding-4.1.3/AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:viewbinding:4.1.3] /home/gillall/.gradle/caches/transforms-2/files-2.1/1f4651d3869a46094b930625fe321d4c/jetified-viewbinding-4.1.3/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/278649e52ea96b93652df94762a92a8f/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41

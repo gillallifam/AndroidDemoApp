@@ -9,6 +9,7 @@ public final class EventViewer extends androidx.fragment.app.Fragment {
     private xyz.gillall.demoapp.databinding.FragmentEventViewerBinding binding;
     private androidx.navigation.NavController navController;
     private xyz.gillall.demoapp.ui.eventviewer.EventViewerViewModel viewModel;
+    private java.util.HashMap _$_findViewCache;
     
     @java.lang.Override()
     public void onCreate(@org.jetbrains.annotations.Nullable()
