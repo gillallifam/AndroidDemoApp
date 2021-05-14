@@ -42,7 +42,8 @@
             android:id="@+id/action_pixabayFragment_to_imageViewer"
             app:destination="@id/imageViewer"
             app:enterAnim="@anim/nav_default_enter_anim"
-            app:exitAnim="@anim/nav_default_exit_anim" />
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popUpTo="@id/pixabayFragment" />
     </fragment>
     <fragment
         android:id="@+id/imageViewer"

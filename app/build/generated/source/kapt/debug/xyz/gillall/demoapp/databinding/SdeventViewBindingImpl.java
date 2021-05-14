@@ -137,7 +137,7 @@ public class SdeventViewBindingImpl extends SdeventViewBinding implements xyz.gi
         if ((dirtyFlags & 0x6L) != 0) {
             // api target 1
 
-            xyz.gillall.demoapp.util.BindingAdaptersKt.setImageURL(this.newsImage, itemImage);
+            xyz.gillall.demoapp.util.BindingAdaptersKt.setImagePlaceholderURL(this.newsImage, itemImage);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtDesc, itemDescription);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtTitle, itemTitle);
         }

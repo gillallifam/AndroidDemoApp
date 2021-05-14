@@ -3,22 +3,28 @@ xyz/gillall/demoapp/generated/callback/OnClickListener.java
  xyz.gillall.demoapp.generated.callback.OnClickListener$Listener
 xyz/gillall/demoapp/BR.java
  xyz.gillall.demoapp.BR
-xyz/gillall/demoapp/databinding/FragmentEventViewerBinding.java
- xyz.gillall.demoapp.databinding.FragmentEventViewerBinding
-xyz/gillall/demoapp/databinding/SdeventViewBindingImpl.java
- xyz.gillall.demoapp.databinding.SdeventViewBindingImpl
-xyz/gillall/demoapp/databinding/HubFragmentBinding.java
- xyz.gillall.demoapp.databinding.HubFragmentBinding
-androidx/databinding/DataBinderMapperImpl.java
- androidx.databinding.DataBinderMapperImpl
-xyz/gillall/demoapp/databinding/FragmentEventViewerBindingImpl.java
- xyz.gillall.demoapp.databinding.FragmentEventViewerBindingImpl
-xyz/gillall/demoapp/databinding/PixabayItemBindingImpl.java
- xyz.gillall.demoapp.databinding.PixabayItemBindingImpl
-xyz/gillall/demoapp/databinding/SdeventsFragmentBinding.java
- xyz.gillall.demoapp.databinding.SdeventsFragmentBinding
+xyz/gillall/demoapp/DataBindingTriggerClass.java
+ xyz.gillall.demoapp.DataBindingTriggerClass
 androidx/databinding/library/baseAdapters/BR.java
  androidx.databinding.library.baseAdapters.BR
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+xyz/gillall/demoapp/BuildConfig.java
+ xyz.gillall.demoapp.BuildConfig
+xyz/gillall/demoapp/databinding/FragmentEventViewerBinding.java
+ xyz.gillall.demoapp.databinding.FragmentEventViewerBinding
+xyz/gillall/demoapp/databinding/FragmentImageViewerBindingImpl.java
+ xyz.gillall.demoapp.databinding.FragmentImageViewerBindingImpl
+xyz/gillall/demoapp/databinding/HubFragmentBinding.java
+ xyz.gillall.demoapp.databinding.HubFragmentBinding
+xyz/gillall/demoapp/databinding/FragmentEventViewerBindingImpl.java
+ xyz.gillall.demoapp.databinding.FragmentEventViewerBindingImpl
+xyz/gillall/demoapp/databinding/FragmentImageViewerBinding.java
+ xyz.gillall.demoapp.databinding.FragmentImageViewerBinding
+xyz/gillall/demoapp/databinding/SdeventsFragmentBinding.java
+ xyz.gillall.demoapp.databinding.SdeventsFragmentBinding
 xyz/gillall/demoapp/databinding/PixabayItemBinding.java
  xyz.gillall.demoapp.databinding.PixabayItemBinding
 xyz/gillall/demoapp/databinding/PixabayFragmentBindingImpl.java
@@ -29,19 +35,13 @@ xyz/gillall/demoapp/databinding/PixabayFragmentBinding.java
  xyz.gillall.demoapp.databinding.PixabayFragmentBinding
 xyz/gillall/demoapp/databinding/SdeventsFragmentBindingImpl.java
  xyz.gillall.demoapp.databinding.SdeventsFragmentBindingImpl
+xyz/gillall/demoapp/databinding/HubFragmentBindingImpl.java
+ xyz.gillall.demoapp.databinding.HubFragmentBindingImpl
+xyz/gillall/demoapp/databinding/SdeventViewBindingImpl.java
+ xyz.gillall.demoapp.databinding.SdeventViewBindingImpl
 xyz/gillall/demoapp/DataBinderMapperImpl.java
  xyz.gillall.demoapp.DataBinderMapperImpl
  xyz.gillall.demoapp.DataBinderMapperImpl$InnerBrLookup
  xyz.gillall.demoapp.DataBinderMapperImpl$InnerLayoutIdLookup
-xyz/gillall/demoapp/databinding/FragmentImageViewerBinding.java
- xyz.gillall.demoapp.databinding.FragmentImageViewerBinding
-xyz/gillall/demoapp/DataBindingTriggerClass.java
- xyz.gillall.demoapp.DataBindingTriggerClass
-xyz/gillall/demoapp/BuildConfig.java
- xyz.gillall.demoapp.BuildConfig
-androidx/databinding/DataBindingComponent.java
- androidx.databinding.DataBindingComponent
-xyz/gillall/demoapp/databinding/HubFragmentBindingImpl.java
- xyz.gillall.demoapp.databinding.HubFragmentBindingImpl
-xyz/gillall/demoapp/databinding/FragmentImageViewerBindingImpl.java
- xyz.gillall.demoapp.databinding.FragmentImageViewerBindingImpl
+xyz/gillall/demoapp/databinding/PixabayItemBindingImpl.java
+ xyz.gillall.demoapp.databinding.PixabayItemBindingImpl

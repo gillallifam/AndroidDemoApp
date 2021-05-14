@@ -11,7 +11,7 @@ class BaseApplication : Application() {
     override fun onCreate() {
         super.onCreate()
         startKoin{
-            androidLogger(Level.INFO)
+            androidLogger(Level.ERROR)
             androidContext(this@BaseApplication)
             modules(SDTest1)
         }

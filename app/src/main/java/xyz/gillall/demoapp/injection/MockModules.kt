@@ -12,14 +12,14 @@ import xyz.gillall.demoapp.ui.sdevents.SDEventsViewModel
 
 object MockModules {
 
-    val SDTest1 = module {
+    val mockModule = module {
         single(named("SDApi")) { sdService() }
         single { SDEventsRepository(get(named("SDApi"))) }
         viewModel { SDEventsViewModel(get()) }
         viewModel { EventViewerViewModel(get(),get()) }
     }
 
-    fun sdService(): SDApi {
+    private fun sdService(): SDApi {
         return Retrofit.Builder()
             .baseUrl("http://5f5a8f24d44d640016169133.mockapi.io/api/")
             .addConverterFactory(GsonConverterFactory.create())
