@@ -14,6 +14,7 @@ import org.koin.androidx.viewmodel.ext.android.getViewModel
 import xyz.gillall.demoapp.MainActivity.Companion.clg
 import xyz.gillall.demoapp.R
 import xyz.gillall.demoapp.databinding.PixabayFragmentBinding
+import xyz.gillall.demoapp.ui.pixabay.ImageType
 
 
 class PixabayFragment : Fragment() {
@@ -24,8 +25,8 @@ class PixabayFragment : Fragment() {
     private lateinit var hitsAdapter: PixabayAdapter
 
     override fun onCreateView(
-            inflater: LayoutInflater, container: ViewGroup?,
-            savedInstanceState: Bundle?
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
     ): View {
         viewModel = getViewModel()
         binding = DataBindingUtil.inflate(inflater, R.layout.pixabay_fragment, container, false)
@@ -39,16 +40,16 @@ class PixabayFragment : Fragment() {
     private fun setupHits() {
         hitsAdapter = PixabayAdapter(HitClickListener() { hit, view ->
             val bundle = Bundle()
-            bundle.putParcelable("hit",hit)
+            bundle.putParcelable("hit", hit)
             navController.navigate(R.id.action_pixabayFragment_to_imageViewer, bundle)
         })
         binding.recyclePixabay.adapter = hitsAdapter
         binding.recyclePixabay.layoutManager =
-                GridLayoutManager(activity, 2, GridLayoutManager.VERTICAL, false)
+            GridLayoutManager(activity, 2, GridLayoutManager.VERTICAL, false)
         viewModel.hits.observe(viewLifecycleOwner, {
             hitsAdapter.submitList(it.hits)
             binding.recyclePixabay.scheduleLayoutAnimation()
         })
-        viewModel.getPhotos("random", "10")
+        viewModel.getData("random", ImageType.PHOTO.type, "10")
     }
 }

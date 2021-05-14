@@ -1895,6 +1895,7 @@ id blocking
 id bottom
 id bounce
 id btnSDSoft
+id button
 id buttonPanel
 id cache_measures
 id cancel_action
@@ -2555,6 +2556,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string sd_event_item
 string search_menu_title
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat

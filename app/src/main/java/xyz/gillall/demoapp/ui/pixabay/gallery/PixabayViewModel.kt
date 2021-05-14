@@ -11,10 +11,10 @@ class PixabayViewModel(private val repository: PixabayRepository) : ViewModel() 
     val hits: LiveData<Hits>
         get() = _hits
 
-    fun getPhotos(q: String, perpage: String) {
-        if (!loaded){
+    fun getData(query: String, type: String, perpage: String) {
+        if (!loaded) {
             viewModelScope.launch {
-                val hits = repository.getPhotos(q, perpage)
+                val hits = repository.getData(query, type, perpage)
                 _hits.value = hits
                 loaded = true
             }

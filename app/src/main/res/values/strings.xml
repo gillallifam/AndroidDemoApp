@@ -3,4 +3,7 @@
     <string name="confirm_checkin">Confirmar participaçao no evento?</string>
     <string name="imgholder">ImgHolder</string>
     <string name="sd_event_item">SD Event item</string>
+    <string name="pixabay_image">pixabay image</string>
+    <string name="sd">SD</string>
+    <string name="map">MAP</string>
 </resources>

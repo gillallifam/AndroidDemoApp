@@ -6,7 +6,7 @@ import xyz.gillall.demoapp.model.Hits
 
 class PixabayRepository(private val pixabayApi: PixabayApi) {
 
-    suspend fun getPhotos(q: String, perpage: String): Hits {
-        return pixabayApi.getPhotos(BuildConfig.pixabayApiKey, q, "photo", perpage)
+    suspend fun getData(query: String, type: String, perpage: String): Hits {
+        return pixabayApi.getData(BuildConfig.pixabayApiKey, query, type, perpage)
     }
 }

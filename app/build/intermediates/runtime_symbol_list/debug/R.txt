@@ -1894,6 +1894,7 @@ int id blocking 0x7f08005c
 int id bottom 0x7f08005d
 int id bounce 0x7f08005e
 int id btnSDSoft 0x7f08005f
+int id button 0x7f0801d5
 int id buttonPanel 0x7f080060
 int id cache_measures 0x7f080061
 int id cancel_action 0x7f080062
@@ -2554,6 +2555,7 @@ int string path_password_eye 0x7f0f0074
 int string path_password_eye_mask_strike_through 0x7f0f0075
 int string path_password_eye_mask_visible 0x7f0f0076
 int string path_password_strike_through 0x7f0f0077
+int string sd_event_item 0x7f0f007a
 int string search_menu_title 0x7f0f0078
 int string status_bar_notification_info_overflow 0x7f0f0079
 int style AlertDialog_AppCompat 0x7f100000
