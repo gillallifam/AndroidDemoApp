@@ -21,12 +21,12 @@ androidx/databinding/library/baseAdapters/BR.java
  androidx.databinding.library.baseAdapters.BR
 xyz/gillall/demoapp/databinding/PixabayItemBinding.java
  xyz.gillall.demoapp.databinding.PixabayItemBinding
-xyz/gillall/demoapp/databinding/PixabayFragmentBindingImpl.java
- xyz.gillall.demoapp.databinding.PixabayFragmentBindingImpl
+xyz/gillall/demoapp/databinding/FragmentImageViewerBindingImpl.java
+ xyz.gillall.demoapp.databinding.FragmentImageViewerBindingImpl
 xyz/gillall/demoapp/databinding/SdeventViewBinding.java
  xyz.gillall.demoapp.databinding.SdeventViewBinding
-xyz/gillall/demoapp/databinding/PixabayFragmentBinding.java
- xyz.gillall.demoapp.databinding.PixabayFragmentBinding
+xyz/gillall/demoapp/databinding/HubFragmentBindingImpl.java
+ xyz.gillall.demoapp.databinding.HubFragmentBindingImpl
 xyz/gillall/demoapp/databinding/SdeventsFragmentBindingImpl.java
  xyz.gillall.demoapp.databinding.SdeventsFragmentBindingImpl
 xyz/gillall/demoapp/DataBinderMapperImpl.java
@@ -41,7 +41,7 @@ xyz/gillall/demoapp/BuildConfig.java
  xyz.gillall.demoapp.BuildConfig
 androidx/databinding/DataBindingComponent.java
  androidx.databinding.DataBindingComponent
-xyz/gillall/demoapp/databinding/HubFragmentBindingImpl.java
- xyz.gillall.demoapp.databinding.HubFragmentBindingImpl
-xyz/gillall/demoapp/databinding/FragmentImageViewerBindingImpl.java
- xyz.gillall.demoapp.databinding.FragmentImageViewerBindingImpl
+xyz/gillall/demoapp/databinding/PixabayFragmentBindingImpl.java
+ xyz.gillall.demoapp.databinding.PixabayFragmentBindingImpl
+xyz/gillall/demoapp/databinding/PixabayFragmentBinding.java
+ xyz.gillall.demoapp.databinding.PixabayFragmentBinding

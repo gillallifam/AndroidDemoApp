@@ -2,8 +2,8 @@ package xyz.gillall.demoapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Window
-import android.view.WindowManager
+import org.koin.androidx.viewmodel.ext.android.getViewModel
+import xyz.gillall.demoapp.shared.SharedViewModel
 
 /**
  * INTRO
@@ -32,9 +32,14 @@ import android.view.WindowManager
 
 class MainActivity : AppCompatActivity() {
 
+    private lateinit var sharedViewModel: SharedViewModel
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        sharedViewModel = getViewModel()
+        sharedViewModel.sharedCall("Called from main")
+        clg("shared",sharedViewModel)
     }
 
     companion object {

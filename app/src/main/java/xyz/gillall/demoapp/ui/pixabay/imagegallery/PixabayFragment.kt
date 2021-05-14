@@ -12,15 +12,15 @@ import androidx.recyclerview.widget.GridLayoutManager
 import org.koin.androidx.viewmodel.ext.android.getSharedViewModel
 import org.koin.androidx.viewmodel.ext.android.getViewModel
 import xyz.gillall.demoapp.R
+import xyz.gillall.demoapp.shared.SharedViewModel
 import xyz.gillall.demoapp.databinding.PixabayFragmentBinding
 import xyz.gillall.demoapp.ui.pixabay.ImageType
-import xyz.gillall.demoapp.ui.pixabay.VideoType
-
 
 class PixabayFragment : Fragment() {
 
     private lateinit var binding: PixabayFragmentBinding
     private lateinit var navController: NavController
+    private lateinit var sharedViewModel: SharedViewModel
     private lateinit var viewModel: PixabayViewModel
     private lateinit var hitsAdapter: PixabayAdapter
 
@@ -28,7 +28,9 @@ class PixabayFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        viewModel = getSharedViewModel()
+        sharedViewModel = getSharedViewModel()
+        sharedViewModel.sharedCall("Called from fragment")
+        viewModel = getViewModel()
         binding = DataBindingUtil.inflate(inflater, R.layout.pixabay_fragment, container, false)
         binding.lifecycleOwner = this
         binding.viewModel = viewModel
