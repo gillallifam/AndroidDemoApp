@@ -9,4 +9,5 @@
     <string name="sdeventimage">SDEventImage</string>
     <string name="imagecheckin">ImageCheckin</string>
     <string name="imageshare">ImageShare</string>
+    <string name="pixabay_gallery_item">Pixabay gallery item</string>
 </resources>

@@ -58,7 +58,7 @@ public class PixabayFragmentBindingImpl extends PixabayFragmentBinding  {
     public boolean setVariable(int variableId, @Nullable Object variable)  {
         boolean variableSet = true;
         if (BR.viewModel == variableId) {
-            setViewModel((xyz.gillall.demoapp.ui.pixabay.gallery.PixabayViewModel) variable);
+            setViewModel((xyz.gillall.demoapp.ui.pixabay.imagegallery.PixabayViewModel) variable);
         }
         else {
             variableSet = false;
@@ -66,7 +66,7 @@ public class PixabayFragmentBindingImpl extends PixabayFragmentBinding  {
             return variableSet;
     }
 
-    public void setViewModel(@Nullable xyz.gillall.demoapp.ui.pixabay.gallery.PixabayViewModel ViewModel) {
+    public void setViewModel(@Nullable xyz.gillall.demoapp.ui.pixabay.imagegallery.PixabayViewModel ViewModel) {
         this.mViewModel = ViewModel;
     }
 

@@ -4,8 +4,8 @@ import retrofit2.http.Body
 import retrofit2.http.GET
 import retrofit2.http.POST
 import retrofit2.http.Path
-import xyz.gillall.demoapp.model.CheckIn
-import xyz.gillall.demoapp.model.SDEvent
+import xyz.gillall.demoapp.model.sd.CheckIn
+import xyz.gillall.demoapp.model.sd.SDEvent
 
 
 interface SDApi {

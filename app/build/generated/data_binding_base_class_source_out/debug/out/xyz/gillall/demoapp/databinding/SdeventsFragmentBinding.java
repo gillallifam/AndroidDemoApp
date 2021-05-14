@@ -14,7 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.lang.Deprecated;
 import java.lang.Object;
 import xyz.gillall.demoapp.R;
-import xyz.gillall.demoapp.ui.sdevents.SDEventsViewModel;
+import xyz.gillall.demoapp.ui.sd.events.SDEventsViewModel;
 
 public abstract class SdeventsFragmentBinding extends ViewDataBinding {
   @NonNull

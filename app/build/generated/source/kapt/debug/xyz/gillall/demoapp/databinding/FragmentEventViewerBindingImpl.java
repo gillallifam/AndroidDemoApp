@@ -75,7 +75,7 @@ public class FragmentEventViewerBindingImpl extends FragmentEventViewerBinding  
             setDefimage((java.lang.String) variable);
         }
         else if (BR.event == variableId) {
-            setEvent((xyz.gillall.demoapp.model.SDEvent) variable);
+            setEvent((xyz.gillall.demoapp.model.sd.SDEvent) variable);
         }
         else {
             variableSet = false;
@@ -86,7 +86,7 @@ public class FragmentEventViewerBindingImpl extends FragmentEventViewerBinding  
     public void setDefimage(@Nullable java.lang.String Defimage) {
         this.mDefimage = Defimage;
     }
-    public void setEvent(@Nullable xyz.gillall.demoapp.model.SDEvent Event) {
+    public void setEvent(@Nullable xyz.gillall.demoapp.model.sd.SDEvent Event) {
         this.mEvent = Event;
     }
 

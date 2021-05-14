@@ -16,7 +16,7 @@ import androidx.databinding.ViewDataBinding;
 import java.lang.Deprecated;
 import java.lang.Object;
 import xyz.gillall.demoapp.R;
-import xyz.gillall.demoapp.model.SDEvent;
+import xyz.gillall.demoapp.model.sd.SDEvent;
 
 public abstract class FragmentEventViewerBinding extends ViewDataBinding {
   @NonNull

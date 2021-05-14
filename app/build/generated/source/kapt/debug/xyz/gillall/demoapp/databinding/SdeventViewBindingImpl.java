@@ -36,7 +36,7 @@ public class SdeventViewBindingImpl extends SdeventViewBinding implements xyz.gi
             );
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
         this.mboundView0.setTag("open");
-        this.newsImage.setTag(null);
+        this.pixGalleryItem.setTag(null);
         this.txtDesc.setTag(null);
         this.txtTitle.setTag(null);
         setRootTag(root);
@@ -67,10 +67,10 @@ public class SdeventViewBindingImpl extends SdeventViewBinding implements xyz.gi
     public boolean setVariable(int variableId, @Nullable Object variable)  {
         boolean variableSet = true;
         if (BR.clickListener == variableId) {
-            setClickListener((xyz.gillall.demoapp.ui.sdevents.SDEventClickListener) variable);
+            setClickListener((xyz.gillall.demoapp.ui.sd.events.SDEventClickListener) variable);
         }
         else if (BR.item == variableId) {
-            setItem((xyz.gillall.demoapp.model.SDEvent) variable);
+            setItem((xyz.gillall.demoapp.model.sd.SDEvent) variable);
         }
         else {
             variableSet = false;
@@ -78,7 +78,7 @@ public class SdeventViewBindingImpl extends SdeventViewBinding implements xyz.gi
             return variableSet;
     }
 
-    public void setClickListener(@Nullable xyz.gillall.demoapp.ui.sdevents.SDEventClickListener ClickListener) {
+    public void setClickListener(@Nullable xyz.gillall.demoapp.ui.sd.events.SDEventClickListener ClickListener) {
         this.mClickListener = ClickListener;
         synchronized(this) {
             mDirtyFlags |= 0x1L;
@@ -86,7 +86,7 @@ public class SdeventViewBindingImpl extends SdeventViewBinding implements xyz.gi
         notifyPropertyChanged(BR.clickListener);
         super.requestRebind();
     }
-    public void setItem(@Nullable xyz.gillall.demoapp.model.SDEvent Item) {
+    public void setItem(@Nullable xyz.gillall.demoapp.model.sd.SDEvent Item) {
         this.mItem = Item;
         synchronized(this) {
             mDirtyFlags |= 0x2L;
@@ -111,8 +111,8 @@ public class SdeventViewBindingImpl extends SdeventViewBinding implements xyz.gi
         }
         java.lang.String itemTitle = null;
         java.lang.String itemImage = null;
-        xyz.gillall.demoapp.ui.sdevents.SDEventClickListener clickListener = mClickListener;
-        xyz.gillall.demoapp.model.SDEvent item = mItem;
+        xyz.gillall.demoapp.ui.sd.events.SDEventClickListener clickListener = mClickListener;
+        xyz.gillall.demoapp.model.sd.SDEvent item = mItem;
         java.lang.String itemDescription = null;
 
         if ((dirtyFlags & 0x6L) != 0) {
@@ -137,7 +137,7 @@ public class SdeventViewBindingImpl extends SdeventViewBinding implements xyz.gi
         if ((dirtyFlags & 0x6L) != 0) {
             // api target 1
 
-            xyz.gillall.demoapp.util.BindingAdaptersKt.setImagePlaceholderURL(this.newsImage, itemImage);
+            xyz.gillall.demoapp.util.BindingAdaptersKt.setImagePlaceholderURL(this.pixGalleryItem, itemImage);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtDesc, itemDescription);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtTitle, itemTitle);
         }
@@ -147,9 +147,9 @@ public class SdeventViewBindingImpl extends SdeventViewBinding implements xyz.gi
     public final void _internalCallbackOnClick(int sourceId , android.view.View callbackArg_0) {
         // localize variables for thread safety
         // clickListener
-        xyz.gillall.demoapp.ui.sdevents.SDEventClickListener clickListener = mClickListener;
+        xyz.gillall.demoapp.ui.sd.events.SDEventClickListener clickListener = mClickListener;
         // item
-        xyz.gillall.demoapp.model.SDEvent item = mItem;
+        xyz.gillall.demoapp.model.sd.SDEvent item = mItem;
         // clickListener != null
         boolean clickListenerJavaLangObjectNull = false;
 

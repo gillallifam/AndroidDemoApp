@@ -58,7 +58,7 @@ public class SdeventsFragmentBindingImpl extends SdeventsFragmentBinding  {
     public boolean setVariable(int variableId, @Nullable Object variable)  {
         boolean variableSet = true;
         if (BR.viewModel == variableId) {
-            setViewModel((xyz.gillall.demoapp.ui.sdevents.SDEventsViewModel) variable);
+            setViewModel((xyz.gillall.demoapp.ui.sd.events.SDEventsViewModel) variable);
         }
         else {
             variableSet = false;
@@ -66,7 +66,7 @@ public class SdeventsFragmentBindingImpl extends SdeventsFragmentBinding  {
             return variableSet;
     }
 
-    public void setViewModel(@Nullable xyz.gillall.demoapp.ui.sdevents.SDEventsViewModel ViewModel) {
+    public void setViewModel(@Nullable xyz.gillall.demoapp.ui.sd.events.SDEventsViewModel ViewModel) {
         this.mViewModel = ViewModel;
     }
 

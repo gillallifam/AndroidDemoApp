@@ -4,12 +4,12 @@
         "source": "/home/gillall/apps/DemoApp/app/build/generated/res/pngs/debug/drawable-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_foreground.png.flat",
-        "source": "/home/gillall/apps/DemoApp/app/build/generated/res/pngs/debug/drawable-hdpi/ic_launcher_foreground.png"
-    },
-    {
         "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
         "source": "/home/gillall/apps/DemoApp/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/gillall/apps/DemoApp/app/build/generated/res/pngs/debug/drawable-hdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/navigation_navigation.xml.flat",

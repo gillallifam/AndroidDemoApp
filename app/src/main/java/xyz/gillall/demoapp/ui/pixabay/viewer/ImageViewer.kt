@@ -4,10 +4,6 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.view.animation.Animation
-import android.view.animation.AnimationUtils
-import android.view.animation.LinearInterpolator
-import android.view.animation.RotateAnimation
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
@@ -15,12 +11,12 @@ import androidx.navigation.fragment.NavHostFragment
 import org.koin.androidx.viewmodel.ext.android.getViewModel
 import xyz.gillall.demoapp.R
 import xyz.gillall.demoapp.databinding.FragmentImageViewerBinding
-import xyz.gillall.demoapp.model.Hit
+import xyz.gillall.demoapp.model.pixabay.ImageHit
 import xyz.gillall.demoapp.util.Image.imageFromURL
 
 
 class ImageViewer : Fragment() {
-    private lateinit var imgData: Hit
+    private lateinit var imgData: ImageHit
     private lateinit var binding: FragmentImageViewerBinding
     private lateinit var navController: NavController
     private lateinit var viewModel: ImageViewerViewModel

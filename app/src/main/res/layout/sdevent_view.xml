@@ -6,11 +6,11 @@
     <data>
         <variable
             name="item"
-            type="xyz.gillall.demoapp.model.SDEvent" />
+            type="xyz.gillall.demoapp.model.sd.SDEvent" />
 
         <variable
             name="clickListener"
-            type="xyz.gillall.demoapp.ui.sdevents.SDEventClickListener" />
+            type="xyz.gillall.demoapp.ui.sd.events.SDEventClickListener" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -21,7 +21,7 @@
         android:onClick="@{(view) -> clickListener.onClick(item,view)}">
 
         <ImageView
-            android:id="@+id/newsImage"
+            android:id="@+id/pixGalleryItem"
             imagePlaceholderUrl="@{item.image}"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -60,12 +60,10 @@
             android:text="@{item.description}"
             android:textColor="@color/white"
             android:textSize="12sp"
-            app:layout_constraintBottom_toBottomOf="@+id/newsImage"
+            app:layout_constraintBottom_toBottomOf="@+id/pixGalleryItem"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             tools:text="Description" />
-
-
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

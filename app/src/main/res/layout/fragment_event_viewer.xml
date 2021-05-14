@@ -7,7 +7,7 @@
 
         <variable
             name="event"
-            type="xyz.gillall.demoapp.model.SDEvent" />
+            type="xyz.gillall.demoapp.model.sd.SDEvent" />
 
         <variable
             name="defimage"
@@ -28,7 +28,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                tools:context=".ui.eventviewer.EventViewer">
+                tools:context=".ui.sd.viewer.EventViewer">
 
                 <ImageView
                     android:id="@+id/imageViewViewer"

@@ -14,12 +14,12 @@ import androidx.databinding.ViewDataBinding;
 import java.lang.Deprecated;
 import java.lang.Object;
 import xyz.gillall.demoapp.R;
-import xyz.gillall.demoapp.model.Hit;
-import xyz.gillall.demoapp.ui.pixabay.gallery.HitClickListener;
+import xyz.gillall.demoapp.model.pixabay.ImageHit;
+import xyz.gillall.demoapp.ui.pixabay.imagegallery.HitClickListener;
 
 public abstract class PixabayItemBinding extends ViewDataBinding {
   @NonNull
-  public final ImageView newsImage;
+  public final ImageView pixGalleryItem;
 
   @NonNull
   public final TextView txtDesc;
@@ -28,23 +28,23 @@ public abstract class PixabayItemBinding extends ViewDataBinding {
   public final TextView txtTitle;
 
   @Bindable
-  protected Hit mItem;
+  protected ImageHit mItem;
 
   @Bindable
   protected HitClickListener mClickListener;
 
   protected PixabayItemBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      ImageView newsImage, TextView txtDesc, TextView txtTitle) {
+      ImageView pixGalleryItem, TextView txtDesc, TextView txtTitle) {
     super(_bindingComponent, _root, _localFieldCount);
-    this.newsImage = newsImage;
+    this.pixGalleryItem = pixGalleryItem;
     this.txtDesc = txtDesc;
     this.txtTitle = txtTitle;
   }
 
-  public abstract void setItem(@Nullable Hit item);
+  public abstract void setItem(@Nullable ImageHit item);
 
   @Nullable
-  public Hit getItem() {
+  public ImageHit getItem() {
     return mItem;
   }
 

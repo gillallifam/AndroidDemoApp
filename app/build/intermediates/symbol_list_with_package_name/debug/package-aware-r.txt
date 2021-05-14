@@ -2100,7 +2100,6 @@ id nav_host_fragment_container
 id navigation_header_container
 id nestedScrollView
 id never
-id newsImage
 id noScroll
 id none
 id normal
@@ -2125,6 +2124,7 @@ id pathRelative
 id peekHeight
 id percent
 id pin
+id pixGalleryItem
 id pixabayFragment
 id position
 id postLayout
@@ -2561,6 +2561,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string pixabay_gallery_item
 string pixabay_image
 string sd
 string sd_event_item

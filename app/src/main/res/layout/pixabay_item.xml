@@ -7,11 +7,11 @@
 
         <variable
             name="item"
-            type="xyz.gillall.demoapp.model.Hit" />
+            type="xyz.gillall.demoapp.model.pixabay.ImageHit" />
 
         <variable
             name="clickListener"
-            type="xyz.gillall.demoapp.ui.pixabay.gallery.HitClickListener" />
+            type="xyz.gillall.demoapp.ui.pixabay.imagegallery.HitClickListener" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -22,11 +22,12 @@
         android:tag="open">
 
         <ImageView
-            android:id="@+id/newsImage"
+            android:id="@+id/pixGalleryItem"
             imageUrl="@{item.previewURL}"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="fitXY"
+            android:contentDescription="@string/pixabay_gallery_item"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -60,7 +61,7 @@
             android:text="@{item.downloads.toString()}"
             android:textColor="@color/white"
             android:textSize="12sp"
-            app:layout_constraintBottom_toBottomOf="@+id/newsImage"
+            app:layout_constraintBottom_toBottomOf="@+id/pixGalleryItem"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             tools:text="Description" />

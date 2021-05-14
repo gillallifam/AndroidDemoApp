@@ -8,12 +8,12 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import xyz.gillall.demoapp.data.remote.PixabayApi
 import xyz.gillall.demoapp.data.remote.SDApi
-import xyz.gillall.demoapp.ui.eventviewer.EventViewerViewModel
-import xyz.gillall.demoapp.ui.pixabay.gallery.PixabayRepository
-import xyz.gillall.demoapp.ui.pixabay.gallery.PixabayViewModel
+import xyz.gillall.demoapp.ui.sd.viewer.EventViewerViewModel
+import xyz.gillall.demoapp.ui.pixabay.imagegallery.PixabayRepository
+import xyz.gillall.demoapp.ui.pixabay.imagegallery.PixabayViewModel
 import xyz.gillall.demoapp.ui.pixabay.viewer.ImageViewerViewModel
-import xyz.gillall.demoapp.ui.sdevents.SDEventsRepository
-import xyz.gillall.demoapp.ui.sdevents.SDEventsViewModel
+import xyz.gillall.demoapp.ui.sd.events.SDEventsRepository
+import xyz.gillall.demoapp.ui.sd.events.SDEventsViewModel
 
 object AppModules {
 

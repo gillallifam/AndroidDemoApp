@@ -36,7 +36,7 @@ public class PixabayItemBindingImpl extends PixabayItemBinding implements xyz.gi
             );
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
         this.mboundView0.setTag("open");
-        this.newsImage.setTag(null);
+        this.pixGalleryItem.setTag(null);
         this.txtDesc.setTag(null);
         this.txtTitle.setTag(null);
         setRootTag(root);
@@ -67,10 +67,10 @@ public class PixabayItemBindingImpl extends PixabayItemBinding implements xyz.gi
     public boolean setVariable(int variableId, @Nullable Object variable)  {
         boolean variableSet = true;
         if (BR.clickListener == variableId) {
-            setClickListener((xyz.gillall.demoapp.ui.pixabay.gallery.HitClickListener) variable);
+            setClickListener((xyz.gillall.demoapp.ui.pixabay.imagegallery.HitClickListener) variable);
         }
         else if (BR.item == variableId) {
-            setItem((xyz.gillall.demoapp.model.Hit) variable);
+            setItem((xyz.gillall.demoapp.model.pixabay.ImageHit) variable);
         }
         else {
             variableSet = false;
@@ -78,7 +78,7 @@ public class PixabayItemBindingImpl extends PixabayItemBinding implements xyz.gi
             return variableSet;
     }
 
-    public void setClickListener(@Nullable xyz.gillall.demoapp.ui.pixabay.gallery.HitClickListener ClickListener) {
+    public void setClickListener(@Nullable xyz.gillall.demoapp.ui.pixabay.imagegallery.HitClickListener ClickListener) {
         this.mClickListener = ClickListener;
         synchronized(this) {
             mDirtyFlags |= 0x1L;
@@ -86,7 +86,7 @@ public class PixabayItemBindingImpl extends PixabayItemBinding implements xyz.gi
         notifyPropertyChanged(BR.clickListener);
         super.requestRebind();
     }
-    public void setItem(@Nullable xyz.gillall.demoapp.model.Hit Item) {
+    public void setItem(@Nullable xyz.gillall.demoapp.model.pixabay.ImageHit Item) {
         this.mItem = Item;
         synchronized(this) {
             mDirtyFlags |= 0x2L;
@@ -109,8 +109,8 @@ public class PixabayItemBindingImpl extends PixabayItemBinding implements xyz.gi
             dirtyFlags = mDirtyFlags;
             mDirtyFlags = 0;
         }
-        xyz.gillall.demoapp.ui.pixabay.gallery.HitClickListener clickListener = mClickListener;
-        xyz.gillall.demoapp.model.Hit item = mItem;
+        xyz.gillall.demoapp.ui.pixabay.imagegallery.HitClickListener clickListener = mClickListener;
+        xyz.gillall.demoapp.model.pixabay.ImageHit item = mItem;
         java.lang.Integer itemDownloads = null;
         java.lang.String itemPreviewURL = null;
         java.lang.Integer itemViews = null;
@@ -149,7 +149,7 @@ public class PixabayItemBindingImpl extends PixabayItemBinding implements xyz.gi
         if ((dirtyFlags & 0x6L) != 0) {
             // api target 1
 
-            xyz.gillall.demoapp.util.BindingAdaptersKt.setImageURL(this.newsImage, itemPreviewURL);
+            xyz.gillall.demoapp.util.BindingAdaptersKt.setImageURL(this.pixGalleryItem, itemPreviewURL);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtDesc, itemDownloadsToString);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtTitle, itemViewsToString);
         }
@@ -159,9 +159,9 @@ public class PixabayItemBindingImpl extends PixabayItemBinding implements xyz.gi
     public final void _internalCallbackOnClick(int sourceId , android.view.View callbackArg_0) {
         // localize variables for thread safety
         // clickListener
-        xyz.gillall.demoapp.ui.pixabay.gallery.HitClickListener clickListener = mClickListener;
+        xyz.gillall.demoapp.ui.pixabay.imagegallery.HitClickListener clickListener = mClickListener;
         // item
-        xyz.gillall.demoapp.model.Hit item = mItem;
+        xyz.gillall.demoapp.model.pixabay.ImageHit item = mItem;
         // clickListener != null
         boolean clickListenerJavaLangObjectNull = false;
 

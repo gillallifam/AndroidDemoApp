@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/SDEventsFragment"
-        android:name="xyz.gillall.demoapp.ui.sdevents.SDEventsFragment"
+        android:name="xyz.gillall.demoapp.ui.sd.events.SDEventsFragment"
         android:label="sdevents_fragment"
         tools:layout="@layout/sdevents_fragment">
         <action
@@ -15,7 +15,7 @@
     </fragment>
     <fragment
         android:id="@+id/eventViewer"
-        android:name="xyz.gillall.demoapp.ui.eventviewer.EventViewer"
+        android:name="xyz.gillall.demoapp.ui.sd.viewer.EventViewer"
         android:label="EventViewer" >
         <action
             android:id="@+id/action_eventViewer_to_mainFragment"
@@ -36,7 +36,7 @@
     </fragment>
     <fragment
         android:id="@+id/pixabayFragment"
-        android:name="xyz.gillall.demoapp.ui.pixabay.gallery.PixabayFragment"
+        android:name="xyz.gillall.demoapp.ui.pixabay.imagegallery.PixabayFragment"
         android:label="PixabayFragment" >
         <action
             android:id="@+id/action_pixabayFragment_to_imageViewer"

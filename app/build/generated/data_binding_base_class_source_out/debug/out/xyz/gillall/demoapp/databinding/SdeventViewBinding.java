@@ -14,12 +14,12 @@ import androidx.databinding.ViewDataBinding;
 import java.lang.Deprecated;
 import java.lang.Object;
 import xyz.gillall.demoapp.R;
-import xyz.gillall.demoapp.model.SDEvent;
-import xyz.gillall.demoapp.ui.sdevents.SDEventClickListener;
+import xyz.gillall.demoapp.model.sd.SDEvent;
+import xyz.gillall.demoapp.ui.sd.events.SDEventClickListener;
 
 public abstract class SdeventViewBinding extends ViewDataBinding {
   @NonNull
-  public final ImageView newsImage;
+  public final ImageView pixGalleryItem;
 
   @NonNull
   public final TextView txtDesc;
@@ -34,9 +34,9 @@ public abstract class SdeventViewBinding extends ViewDataBinding {
   protected SDEventClickListener mClickListener;
 
   protected SdeventViewBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      ImageView newsImage, TextView txtDesc, TextView txtTitle) {
+      ImageView pixGalleryItem, TextView txtDesc, TextView txtTitle) {
     super(_bindingComponent, _root, _localFieldCount);
-    this.newsImage = newsImage;
+    this.pixGalleryItem = pixGalleryItem;
     this.txtDesc = txtDesc;
     this.txtTitle = txtTitle;
   }

@@ -7,7 +7,7 @@
 
         <variable
             name="viewModel"
-            type="xyz.gillall.demoapp.ui.sdevents.SDEventsViewModel" />
+            type="xyz.gillall.demoapp.ui.sd.events.SDEventsViewModel" />
 
     </data>
 
@@ -15,7 +15,7 @@
         android:id="@+id/main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ui.sdevents.SDEventsFragment">
+        tools:context=".ui.sd.events.SDEventsFragment">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycleSDEvents"
