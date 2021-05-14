@@ -14,32 +14,36 @@ public class FragmentEventViewerBindingImpl extends FragmentEventViewerBinding  
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.imageView, 1);
-        sViewsWithIds.put(R.id.txtTitle, 2);
-        sViewsWithIds.put(R.id.textView1, 3);
-        sViewsWithIds.put(R.id.image_checkin, 4);
-        sViewsWithIds.put(R.id.image_share, 5);
+        sViewsWithIds.put(R.id.nestedScrollView, 1);
+        sViewsWithIds.put(R.id.imageViewViewer, 2);
+        sViewsWithIds.put(R.id.txtTitle, 3);
+        sViewsWithIds.put(R.id.textView1, 4);
+        sViewsWithIds.put(R.id.constraintLayout, 5);
+        sViewsWithIds.put(R.id.image_checkin, 6);
+        sViewsWithIds.put(R.id.image_share, 7);
     }
     // views
     @NonNull
-    private final androidx.core.widget.NestedScrollView mboundView0;
+    private final androidx.constraintlayout.widget.ConstraintLayout mboundView0;
     // variables
     // values
     // listeners
     // Inverse Binding Event Handlers
 
     public FragmentEventViewerBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 6, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 8, sIncludes, sViewsWithIds));
     }
     private FragmentEventViewerBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (android.widget.ImageView) bindings[4]
-            , (android.widget.ImageView) bindings[5]
-            , (android.widget.ImageView) bindings[1]
+            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[5]
+            , (android.widget.ImageView) bindings[6]
+            , (android.widget.ImageView) bindings[7]
+            , (android.widget.ImageView) bindings[2]
+            , (androidx.core.widget.NestedScrollView) bindings[1]
+            , (android.widget.TextView) bindings[4]
             , (android.widget.TextView) bindings[3]
-            , (android.widget.TextView) bindings[2]
             );
-        this.mboundView0 = (androidx.core.widget.NestedScrollView) bindings[0];
+        this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
         this.mboundView0.setTag(null);
         setRootTag(root);
         // listeners

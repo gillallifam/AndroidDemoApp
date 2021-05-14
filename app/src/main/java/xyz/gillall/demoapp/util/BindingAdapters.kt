@@ -16,5 +16,5 @@ fun setImageURL(imageView: ImageView, url: String) {
 
 @BindingAdapter("imagePlaceholderUrl")
 fun setImagePlaceholderURL(imageView: ImageView, url: String) {
-    return imageWithPlaceholderFromURL(imageView, url, R.drawable.defaultevent2)
+    return imageWithPlaceholderFromURL(imageView, url, R.drawable.defaultevent)
 }

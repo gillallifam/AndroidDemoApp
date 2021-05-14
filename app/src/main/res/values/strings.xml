@@ -6,4 +6,7 @@
     <string name="pixabay_image">pixabay image</string>
     <string name="sd">SD</string>
     <string name="map">MAP</string>
+    <string name="sdeventimage">SDEventImage</string>
+    <string name="imagecheckin">ImageCheckin</string>
+    <string name="imageshare">ImageShare</string>
 </resources>

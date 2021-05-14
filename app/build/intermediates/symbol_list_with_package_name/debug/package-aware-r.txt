@@ -1745,7 +1745,7 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
-drawable defaultevent2
+drawable defaultevent
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1806,6 +1806,7 @@ id CTRL
 id FUNCTION
 id META
 id NO_DEBUG
+id SDEventsFragment
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -1920,6 +1921,7 @@ id clip_vertical
 id clockwise
 id collapseActionView
 id confirm_button
+id constraintLayout
 id container
 id content
 id contentPanel
@@ -2009,7 +2011,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageView
+id imageViewViewer
 id imageViewer
 id image_checkin
 id image_share
@@ -2036,7 +2038,6 @@ id linearLayout
 id listMode
 id list_item
 id main
-id mainFragment
 id mapView
 id masked
 id material_clock_display
@@ -2097,6 +2098,7 @@ id nav_controller_view_tag
 id nav_host_fragment
 id nav_host_fragment_container
 id navigation_header_container
+id nestedScrollView
 id never
 id newsImage
 id noScroll
@@ -2499,6 +2501,7 @@ string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string imgholder
 string item_view_role_description
+string map
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_selection
@@ -2556,7 +2559,10 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string pixabay_image
+string sd
 string sd_event_item
+string sdeventimage
 string search_menu_title
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat

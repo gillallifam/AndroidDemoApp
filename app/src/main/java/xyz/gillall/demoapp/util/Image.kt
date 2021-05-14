@@ -16,7 +16,7 @@ object Image {
 
     fun imageWithPlaceholderFromURL(imageView: ImageView, url: String, placeholder: Int) {
         Glide.with(imageView.context).load(url)
-            .placeholder(R.drawable.defaultevent2)
+            .placeholder(R.drawable.defaultevent)
             .apply(RequestOptions().override(763, 400))
             .into(imageView)
     }

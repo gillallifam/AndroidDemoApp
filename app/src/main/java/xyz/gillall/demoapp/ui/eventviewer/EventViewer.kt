@@ -7,19 +7,18 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.EditText
 import android.widget.TextView
+import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
-
-import xyz.gillall.demoapp.model.CheckIn
-import xyz.gillall.demoapp.model.SDEvent
-
 import org.koin.androidx.viewmodel.ext.android.getViewModel
 import xyz.gillall.demoapp.R
 import xyz.gillall.demoapp.databinding.FragmentEventViewerBinding
+import xyz.gillall.demoapp.model.CheckIn
+import xyz.gillall.demoapp.model.SDEvent
 import xyz.gillall.demoapp.util.Dialog
-import xyz.gillall.demoapp.util.Image.imageFromURL
+import xyz.gillall.demoapp.util.Image.imageWithPlaceholderFromURL
 
 class EventViewer : Fragment() {
     private lateinit var eventId: String
@@ -77,6 +76,8 @@ class EventViewer : Fragment() {
                 if (hasData) {
                     viewModel.checkIn(CheckIn(eventId, "test1", "email@email.com"))
                     dialogCheckin.dismiss()
+                } else {
+                    Toast.makeText(context, "Preencha os campos.", Toast.LENGTH_SHORT).show()
                 }
             }
 
@@ -92,7 +93,7 @@ class EventViewer : Fragment() {
         viewModel.event.observe(viewLifecycleOwner, {
             it.let {
                 sDEvent = it
-                imageFromURL(binding.imageView, it.image)
+                imageWithPlaceholderFromURL(binding.imageViewViewer, it.image, R.drawable.defaultevent)
                 binding.textView1.text = it.description
                 binding.txtTitle.text = it.title
             }

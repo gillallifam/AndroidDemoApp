@@ -8,6 +8,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.core.widget.NestedScrollView;
 import androidx.databinding.Bindable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
@@ -18,13 +20,19 @@ import xyz.gillall.demoapp.model.SDEvent;
 
 public abstract class FragmentEventViewerBinding extends ViewDataBinding {
   @NonNull
+  public final ConstraintLayout constraintLayout;
+
+  @NonNull
   public final ImageView imageCheckin;
 
   @NonNull
   public final ImageView imageShare;
 
   @NonNull
-  public final ImageView imageView;
+  public final ImageView imageViewViewer;
+
+  @NonNull
+  public final NestedScrollView nestedScrollView;
 
   @NonNull
   public final TextView textView1;
@@ -39,12 +47,15 @@ public abstract class FragmentEventViewerBinding extends ViewDataBinding {
   protected String mDefimage;
 
   protected FragmentEventViewerBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      ImageView imageCheckin, ImageView imageShare, ImageView imageView, TextView textView1,
+      ConstraintLayout constraintLayout, ImageView imageCheckin, ImageView imageShare,
+      ImageView imageViewViewer, NestedScrollView nestedScrollView, TextView textView1,
       TextView txtTitle) {
     super(_bindingComponent, _root, _localFieldCount);
+    this.constraintLayout = constraintLayout;
     this.imageCheckin = imageCheckin;
     this.imageShare = imageShare;
-    this.imageView = imageView;
+    this.imageViewViewer = imageViewViewer;
+    this.nestedScrollView = nestedScrollView;
     this.textView1 = textView1;
     this.txtTitle = txtTitle;
   }

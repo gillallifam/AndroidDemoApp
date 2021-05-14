@@ -5,10 +5,10 @@
     app:startDestination="@id/hubFragment">
 
     <fragment
-        android:id="@+id/mainFragment"
+        android:id="@+id/SDEventsFragment"
         android:name="xyz.gillall.demoapp.ui.sdevents.SDEventsFragment"
-        android:label="main_fragment"
-        tools:layout="@layout/sdevents_fragment" >
+        android:label="sdevents_fragment"
+        tools:layout="@layout/sdevents_fragment">
         <action
             android:id="@+id/action_mainFragment_to_eventViewer"
             app:destination="@id/eventViewer" />
@@ -19,7 +19,7 @@
         android:label="EventViewer" >
         <action
             android:id="@+id/action_eventViewer_to_mainFragment"
-            app:destination="@id/mainFragment" />
+            app:destination="@id/SDEventsFragment" />
     </fragment>
     <fragment
         android:id="@+id/hubFragment"
@@ -32,7 +32,7 @@
             app:exitAnim="@anim/nav_default_exit_anim" />
         <action
             android:id="@+id/action_hubFragment_to_mainFragment"
-            app:destination="@id/mainFragment" />
+            app:destination="@id/SDEventsFragment" />
     </fragment>
     <fragment
         android:id="@+id/pixabayFragment"
