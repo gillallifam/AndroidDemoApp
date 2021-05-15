@@ -27,26 +27,42 @@
         android:label="HubFragment">
         <action
             android:id="@+id/action_hubFragment_to_pixabayFragment"
-            app:destination="@id/pixabayFragment"
+            app:destination="@id/ImageGalleryFragment"
             app:enterAnim="@anim/nav_default_enter_anim"
             app:exitAnim="@anim/nav_default_exit_anim" />
         <action
             android:id="@+id/action_hubFragment_to_mainFragment"
             app:destination="@id/SDEventsFragment" />
+        <action
+            android:id="@+id/action_hubFragment_to_videoGalleryFragment"
+            app:destination="@id/videoGalleryFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+        <action
+            android:id="@+id/action_hubFragment_to_videoViewer"
+            app:destination="@id/videoViewer" />
     </fragment>
     <fragment
-        android:id="@+id/pixabayFragment"
-        android:name="xyz.gillall.demoapp.ui.pixabay.imagegallery.PixabayFragment"
-        android:label="PixabayFragment" >
+        android:id="@+id/ImageGalleryFragment"
+        android:name="xyz.gillall.demoapp.ui.pixabay.imagegallery.ImageGalleryFragment"
+        android:label="imageGalleryFragment">
         <action
             android:id="@+id/action_pixabayFragment_to_imageViewer"
             app:destination="@id/imageViewer"
             app:enterAnim="@anim/nav_default_enter_anim"
             app:exitAnim="@anim/nav_default_exit_anim"
-            app:popUpTo="@id/pixabayFragment" />
+            app:popUpTo="@id/ImageGalleryFragment" />
     </fragment>
     <fragment
         android:id="@+id/imageViewer"
-        android:name="xyz.gillall.demoapp.ui.pixabay.viewer.ImageViewer"
+        android:name="xyz.gillall.demoapp.ui.pixabay.imageviewer.ImageViewer"
         android:label="ImageViewer" />
+    <fragment
+        android:id="@+id/videoGalleryFragment"
+        android:name="xyz.gillall.demoapp.ui.pixabay.videogallery.VideoGalleryFragment"
+        android:label="VideoGalleryFragment" />
+    <fragment
+        android:id="@+id/videoViewer"
+        android:name="xyz.gillall.demoapp.ui.pixabay.videoviewer.VideoViewer"
+        android:label="VideoViewer" />
 </navigation>

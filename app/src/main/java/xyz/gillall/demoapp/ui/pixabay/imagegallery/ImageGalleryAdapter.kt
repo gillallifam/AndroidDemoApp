@@ -9,8 +9,8 @@ import androidx.recyclerview.widget.RecyclerView
 import xyz.gillall.demoapp.databinding.PixabayItemBinding
 import xyz.gillall.demoapp.model.pixabay.ImageHit
 
-class PixabayAdapter(private val clickListener: HitClickListener):
-    ListAdapter<ImageHit, PixabayAdapter.ViewHolder>(ItemDiffCallback()) {
+class ImageGalleryAdapter(private val clickListener: HitClickListener):
+    ListAdapter<ImageHit, ImageGalleryAdapter.ViewHolder>(ItemDiffCallback()) {
 
     class ViewHolder private constructor(private val binding: PixabayItemBinding) : RecyclerView.ViewHolder(binding.root) {
 

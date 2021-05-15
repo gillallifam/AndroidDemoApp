@@ -5,7 +5,7 @@ import kotlinx.coroutines.launch
 import xyz.gillall.demoapp.model.pixabay.ImageHits
 import xyz.gillall.demoapp.model.pixabay.VideoHits
 
-class PixabayViewModel(private val repository: PixabayRepository) : ViewModel() {
+class ImageGalleryViewModel(private val repository: ImageGalleryRepository) : ViewModel() {
 
     private var loaded = false
 

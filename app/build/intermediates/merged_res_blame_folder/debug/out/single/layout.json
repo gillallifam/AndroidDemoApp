@@ -1,5 +1,13 @@
 [
     {
+        "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_video_viewer.xml",
+        "source": "/home/gillall/apps/DemoApp/app/src/main/res/layout/fragment_video_viewer.xml"
+    },
+    {
+        "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/image_gallery_fragment.xml",
+        "source": "/home/gillall/apps/DemoApp/app/src/main/res/layout/image_gallery_fragment.xml"
+    },
+    {
         "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/pixabay_fragment.xml",
         "source": "/home/gillall/apps/DemoApp/app/src/main/res/layout/pixabay_fragment.xml"
     },
@@ -22,6 +30,10 @@
     {
         "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/hub_fragment.xml",
         "source": "/home/gillall/apps/DemoApp/app/src/main/res/layout/hub_fragment.xml"
+    },
+    {
+        "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/video_gallery_fragment.xml",
+        "source": "/home/gillall/apps/DemoApp/app/src/main/res/layout/video_gallery_fragment.xml"
     },
     {
         "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/sdevents_fragment.xml",

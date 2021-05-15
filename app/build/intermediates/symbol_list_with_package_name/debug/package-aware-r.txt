@@ -1115,6 +1115,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_video_background
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -1762,6 +1763,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_video_foreground
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1804,6 +1806,7 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
+id ImageGalleryFragment
 id META
 id NO_DEBUG
 id SDEventsFragment
@@ -1862,6 +1865,8 @@ id action_divider
 id action_eventViewer_to_mainFragment
 id action_hubFragment_to_mainFragment
 id action_hubFragment_to_pixabayFragment
+id action_hubFragment_to_videoGalleryFragment
+id action_hubFragment_to_videoViewer
 id action_image
 id action_mainFragment_to_eventViewer
 id action_menu_divider
@@ -1896,6 +1901,7 @@ id blocking
 id bottom
 id bounce
 id btnSDSoft
+id btnTst
 id button
 id buttonPanel
 id cache_measures
@@ -2016,7 +2022,7 @@ id imageViewer
 id image_checkin
 id image_share
 id imgHolder
-id imgPixabay
+id imgsPixabay
 id info
 id invisible
 id inward
@@ -2125,7 +2131,7 @@ id peekHeight
 id percent
 id pin
 id pixGalleryItem
-id pixabayFragment
+id pixabayVideos
 id position
 id postLayout
 id progress_circular
@@ -2224,6 +2230,7 @@ id textTop
 id textView
 id textView1
 id textView2
+id textViewTestChange
 id textWatcher
 id text_input_end_icon
 id text_input_error_icon
@@ -2259,6 +2266,9 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id videoGalleryFragment
+id videoView
+id videoViewer
 id view_offset_helper
 id view_tree_lifecycle_owner
 id view_tree_saved_state_registry_owner
@@ -2354,7 +2364,9 @@ layout dialog_checkin
 layout dialog_location
 layout fragment_event_viewer
 layout fragment_image_viewer
+layout fragment_video_viewer
 layout hub_fragment
+layout image_gallery_fragment
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -2412,7 +2424,6 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
-layout pixabay_fragment
 layout pixabay_item
 layout sdevent_view
 layout sdevents_fragment
@@ -2434,8 +2445,11 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+layout video_gallery_fragment
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap ic_video
+mipmap ic_video_round
 navigation navigation
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description

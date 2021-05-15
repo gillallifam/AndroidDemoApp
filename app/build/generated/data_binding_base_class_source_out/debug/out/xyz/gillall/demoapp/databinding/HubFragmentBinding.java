@@ -19,17 +19,26 @@ public abstract class HubFragmentBinding extends ViewDataBinding {
   public final Button btnSDSoft;
 
   @NonNull
+  public final Button btnTst;
+
+  @NonNull
   public final Button button;
 
   @NonNull
-  public final ImageView imgPixabay;
+  public final ImageView imgsPixabay;
+
+  @NonNull
+  public final ImageView pixabayVideos;
 
   protected HubFragmentBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      Button btnSDSoft, Button button, ImageView imgPixabay) {
+      Button btnSDSoft, Button btnTst, Button button, ImageView imgsPixabay,
+      ImageView pixabayVideos) {
     super(_bindingComponent, _root, _localFieldCount);
     this.btnSDSoft = btnSDSoft;
+    this.btnTst = btnTst;
     this.button = button;
-    this.imgPixabay = imgPixabay;
+    this.imgsPixabay = imgsPixabay;
+    this.pixabayVideos = pixabayVideos;
   }
 
   @NonNull

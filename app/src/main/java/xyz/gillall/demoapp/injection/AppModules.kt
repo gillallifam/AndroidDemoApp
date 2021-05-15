@@ -10,9 +10,12 @@ import xyz.gillall.demoapp.shared.SharedViewModel
 import xyz.gillall.demoapp.data.remote.PixabayApi
 import xyz.gillall.demoapp.data.remote.SDApi
 import xyz.gillall.demoapp.ui.sd.viewer.EventViewerViewModel
-import xyz.gillall.demoapp.ui.pixabay.imagegallery.PixabayRepository
-import xyz.gillall.demoapp.ui.pixabay.imagegallery.PixabayViewModel
-import xyz.gillall.demoapp.ui.pixabay.viewer.ImageViewerViewModel
+import xyz.gillall.demoapp.ui.pixabay.imagegallery.ImageGalleryRepository
+import xyz.gillall.demoapp.ui.pixabay.imagegallery.ImageGalleryViewModel
+import xyz.gillall.demoapp.ui.pixabay.videogallery.VideoGalleryRepository
+import xyz.gillall.demoapp.ui.pixabay.videogallery.VideoGalleryViewModel
+import xyz.gillall.demoapp.ui.pixabay.imageviewer.ImageViewerViewModel
+import xyz.gillall.demoapp.ui.pixabay.videoviewer.VideoViewerViewModel
 import xyz.gillall.demoapp.ui.sd.events.SDEventsRepository
 import xyz.gillall.demoapp.ui.sd.events.SDEventsViewModel
 
@@ -22,12 +25,15 @@ object AppModules {
         single(named("SDApi")) { provideSDApi() }
         single { SDEventsRepository(get(named("SDApi"))) }
         single(named("PixabayApi")) { providePixabayApi() }
-        single { PixabayRepository(get(named("PixabayApi"))) }
+        single { ImageGalleryRepository(get(named("PixabayApi"))) }
+        single { VideoGalleryRepository(get(named("PixabayApi"))) }
         viewModel { SharedViewModel() }
         viewModel { SDEventsViewModel(get()) }
         viewModel { EventViewerViewModel(get(), get()) }
-        viewModel { PixabayViewModel(get()) }
+        viewModel { ImageGalleryViewModel(get()) }
+        viewModel { VideoGalleryViewModel(get()) }
         viewModel { ImageViewerViewModel(get(), get()) }
+        viewModel { VideoViewerViewModel(get(), get()) }
     }
 
     private fun provideSDApi(): SDApi {

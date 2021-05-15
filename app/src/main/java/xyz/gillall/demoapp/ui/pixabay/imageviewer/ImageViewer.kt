@@ -1,4 +1,4 @@
-package xyz.gillall.demoapp.ui.pixabay.viewer
+package xyz.gillall.demoapp.ui.pixabay.imageviewer
 
 import android.os.Bundle
 import android.view.LayoutInflater

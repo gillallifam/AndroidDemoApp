@@ -12,17 +12,17 @@ import androidx.recyclerview.widget.GridLayoutManager
 import org.koin.androidx.viewmodel.ext.android.getSharedViewModel
 import org.koin.androidx.viewmodel.ext.android.getViewModel
 import xyz.gillall.demoapp.R
+import xyz.gillall.demoapp.databinding.ImageGalleryFragmentBinding
 import xyz.gillall.demoapp.shared.SharedViewModel
-import xyz.gillall.demoapp.databinding.PixabayFragmentBinding
 import xyz.gillall.demoapp.ui.pixabay.ImageType
 
-class PixabayFragment : Fragment() {
+class ImageGalleryFragment : Fragment() {
 
-    private lateinit var binding: PixabayFragmentBinding
+    private lateinit var binding: ImageGalleryFragmentBinding
     private lateinit var navController: NavController
     private lateinit var sharedViewModel: SharedViewModel
-    private lateinit var viewModel: PixabayViewModel
-    private lateinit var hitsAdapter: PixabayAdapter
+    private lateinit var viewModel: ImageGalleryViewModel
+    private lateinit var hitsAdapter: ImageGalleryAdapter
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -31,7 +31,7 @@ class PixabayFragment : Fragment() {
         sharedViewModel = getSharedViewModel()
         sharedViewModel.sharedCall("Called from fragment")
         viewModel = getViewModel()
-        binding = DataBindingUtil.inflate(inflater, R.layout.pixabay_fragment, container, false)
+        binding = DataBindingUtil.inflate(inflater, R.layout.image_gallery_fragment, container, false)
         binding.lifecycleOwner = this
         binding.viewModel = viewModel
         navController = findNavController(this)
@@ -40,7 +40,7 @@ class PixabayFragment : Fragment() {
     }
 
     private fun setupHits() {
-        hitsAdapter = PixabayAdapter(HitClickListener() { hit, view ->
+        hitsAdapter = ImageGalleryAdapter(HitClickListener() { hit, view ->
             val bundle = Bundle()
             bundle.putParcelable("hit", hit)
             navController.navigate(R.id.action_pixabayFragment_to_imageViewer, bundle)

@@ -14,9 +14,11 @@ public class HubFragmentBindingImpl extends HubFragmentBinding  {
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.imgPixabay, 1);
+        sViewsWithIds.put(R.id.imgsPixabay, 1);
         sViewsWithIds.put(R.id.btnSDSoft, 2);
         sViewsWithIds.put(R.id.button, 3);
+        sViewsWithIds.put(R.id.pixabayVideos, 4);
+        sViewsWithIds.put(R.id.btnTst, 5);
     }
     // views
     @NonNull
@@ -27,13 +29,15 @@ public class HubFragmentBindingImpl extends HubFragmentBinding  {
     // Inverse Binding Event Handlers
 
     public HubFragmentBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 4, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 6, sIncludes, sViewsWithIds));
     }
     private HubFragmentBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (android.widget.Button) bindings[2]
+            , (android.widget.Button) bindings[5]
             , (android.widget.Button) bindings[3]
             , (android.widget.ImageView) bindings[1]
+            , (android.widget.ImageView) bindings[4]
             );
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
         this.mboundView0.setTag(null);

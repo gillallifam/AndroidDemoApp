@@ -17,37 +17,45 @@ import java.util.HashMap;
 import java.util.List;
 import xyz.gillall.demoapp.databinding.FragmentEventViewerBindingImpl;
 import xyz.gillall.demoapp.databinding.FragmentImageViewerBindingImpl;
+import xyz.gillall.demoapp.databinding.FragmentVideoViewerBindingImpl;
 import xyz.gillall.demoapp.databinding.HubFragmentBindingImpl;
-import xyz.gillall.demoapp.databinding.PixabayFragmentBindingImpl;
+import xyz.gillall.demoapp.databinding.ImageGalleryFragmentBindingImpl;
 import xyz.gillall.demoapp.databinding.PixabayItemBindingImpl;
 import xyz.gillall.demoapp.databinding.SdeventViewBindingImpl;
 import xyz.gillall.demoapp.databinding.SdeventsFragmentBindingImpl;
+import xyz.gillall.demoapp.databinding.VideoGalleryFragmentBindingImpl;
 
 public class DataBinderMapperImpl extends DataBinderMapper {
   private static final int LAYOUT_FRAGMENTEVENTVIEWER = 1;
 
   private static final int LAYOUT_FRAGMENTIMAGEVIEWER = 2;
 
-  private static final int LAYOUT_HUBFRAGMENT = 3;
+  private static final int LAYOUT_FRAGMENTVIDEOVIEWER = 3;
 
-  private static final int LAYOUT_PIXABAYFRAGMENT = 4;
+  private static final int LAYOUT_HUBFRAGMENT = 4;
 
-  private static final int LAYOUT_PIXABAYITEM = 5;
+  private static final int LAYOUT_IMAGEGALLERYFRAGMENT = 5;
 
-  private static final int LAYOUT_SDEVENTVIEW = 6;
+  private static final int LAYOUT_PIXABAYITEM = 6;
 
-  private static final int LAYOUT_SDEVENTSFRAGMENT = 7;
+  private static final int LAYOUT_SDEVENTVIEW = 7;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(7);
+  private static final int LAYOUT_SDEVENTSFRAGMENT = 8;
+
+  private static final int LAYOUT_VIDEOGALLERYFRAGMENT = 9;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(9);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(xyz.gillall.demoapp.R.layout.fragment_event_viewer, LAYOUT_FRAGMENTEVENTVIEWER);
     INTERNAL_LAYOUT_ID_LOOKUP.put(xyz.gillall.demoapp.R.layout.fragment_image_viewer, LAYOUT_FRAGMENTIMAGEVIEWER);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(xyz.gillall.demoapp.R.layout.fragment_video_viewer, LAYOUT_FRAGMENTVIDEOVIEWER);
     INTERNAL_LAYOUT_ID_LOOKUP.put(xyz.gillall.demoapp.R.layout.hub_fragment, LAYOUT_HUBFRAGMENT);
-    INTERNAL_LAYOUT_ID_LOOKUP.put(xyz.gillall.demoapp.R.layout.pixabay_fragment, LAYOUT_PIXABAYFRAGMENT);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(xyz.gillall.demoapp.R.layout.image_gallery_fragment, LAYOUT_IMAGEGALLERYFRAGMENT);
     INTERNAL_LAYOUT_ID_LOOKUP.put(xyz.gillall.demoapp.R.layout.pixabay_item, LAYOUT_PIXABAYITEM);
     INTERNAL_LAYOUT_ID_LOOKUP.put(xyz.gillall.demoapp.R.layout.sdevent_view, LAYOUT_SDEVENTVIEW);
     INTERNAL_LAYOUT_ID_LOOKUP.put(xyz.gillall.demoapp.R.layout.sdevents_fragment, LAYOUT_SDEVENTSFRAGMENT);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(xyz.gillall.demoapp.R.layout.video_gallery_fragment, LAYOUT_VIDEOGALLERYFRAGMENT);
   }
 
   @Override
@@ -71,17 +79,23 @@ public class DataBinderMapperImpl extends DataBinderMapper {
           }
           throw new IllegalArgumentException("The tag for fragment_image_viewer is invalid. Received: " + tag);
         }
+        case  LAYOUT_FRAGMENTVIDEOVIEWER: {
+          if ("layout/fragment_video_viewer_0".equals(tag)) {
+            return new FragmentVideoViewerBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_video_viewer is invalid. Received: " + tag);
+        }
         case  LAYOUT_HUBFRAGMENT: {
           if ("layout/hub_fragment_0".equals(tag)) {
             return new HubFragmentBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for hub_fragment is invalid. Received: " + tag);
         }
-        case  LAYOUT_PIXABAYFRAGMENT: {
-          if ("layout/pixabay_fragment_0".equals(tag)) {
-            return new PixabayFragmentBindingImpl(component, view);
+        case  LAYOUT_IMAGEGALLERYFRAGMENT: {
+          if ("layout/image_gallery_fragment_0".equals(tag)) {
+            return new ImageGalleryFragmentBindingImpl(component, view);
           }
-          throw new IllegalArgumentException("The tag for pixabay_fragment is invalid. Received: " + tag);
+          throw new IllegalArgumentException("The tag for image_gallery_fragment is invalid. Received: " + tag);
         }
         case  LAYOUT_PIXABAYITEM: {
           if ("layout/pixabay_item_0".equals(tag)) {
@@ -100,6 +114,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new SdeventsFragmentBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for sdevents_fragment is invalid. Received: " + tag);
+        }
+        case  LAYOUT_VIDEOGALLERYFRAGMENT: {
+          if ("layout/video_gallery_fragment_0".equals(tag)) {
+            return new VideoGalleryFragmentBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for video_gallery_fragment is invalid. Received: " + tag);
         }
       }
     }
@@ -159,16 +179,18 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(7);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(9);
 
     static {
       sKeys.put("layout/fragment_event_viewer_0", xyz.gillall.demoapp.R.layout.fragment_event_viewer);
       sKeys.put("layout/fragment_image_viewer_0", xyz.gillall.demoapp.R.layout.fragment_image_viewer);
+      sKeys.put("layout/fragment_video_viewer_0", xyz.gillall.demoapp.R.layout.fragment_video_viewer);
       sKeys.put("layout/hub_fragment_0", xyz.gillall.demoapp.R.layout.hub_fragment);
-      sKeys.put("layout/pixabay_fragment_0", xyz.gillall.demoapp.R.layout.pixabay_fragment);
+      sKeys.put("layout/image_gallery_fragment_0", xyz.gillall.demoapp.R.layout.image_gallery_fragment);
       sKeys.put("layout/pixabay_item_0", xyz.gillall.demoapp.R.layout.pixabay_item);
       sKeys.put("layout/sdevent_view_0", xyz.gillall.demoapp.R.layout.sdevent_view);
       sKeys.put("layout/sdevents_fragment_0", xyz.gillall.demoapp.R.layout.sdevents_fragment);
+      sKeys.put("layout/video_gallery_fragment_0", xyz.gillall.demoapp.R.layout.video_gallery_fragment);
     }
   }
 }

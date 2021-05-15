@@ -32,11 +32,20 @@ class HubFragment : Fragment() {
 
     private fun setupClicks() {
 
-        binding.imgPixabay.setOnClickListener {
+        binding.imgsPixabay.setOnClickListener {
             navController.navigate(R.id.action_hubFragment_to_pixabayFragment)
         }
+
+        binding.pixabayVideos.setOnClickListener {
+            navController.navigate(R.id.action_hubFragment_to_videoGalleryFragment)
+        }
+
         binding.btnSDSoft.setOnClickListener {
             navController.navigate(R.id.action_hubFragment_to_mainFragment)
+        }
+
+        binding.btnTst.setOnClickListener {
+            navController.navigate(R.id.action_hubFragment_to_videoViewer)
         }
     }
 }
