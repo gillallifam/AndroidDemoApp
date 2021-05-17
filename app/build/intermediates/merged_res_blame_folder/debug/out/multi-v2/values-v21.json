@@ -61,6 +61,25 @@
                     }
                 },
                 {
+                    "source": "/home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/res/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,313",
+                        "endLines": "5,9",
+                        "endColumns": "10,10",
+                        "endOffsets": "308,535"
+                    },
+                    "to": {
+                        "startLines": "402,406",
+                        "startColumns": "4,4",
+                        "startOffsets": "29651,29909",
+                        "endLines": "405,409",
+                        "endColumns": "10,10",
+                        "endOffsets": "29904,30131"
+                    }
+                },
+                {
                     "source": "/home/gillall/.gradle/caches/transforms-2/files-2.1/a71e807c67e06feb7a68c2996fa4dde9/media-1.0.0/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,5,8,11",

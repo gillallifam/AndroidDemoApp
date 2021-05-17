@@ -20,28 +20,32 @@
         "source": "/home/gillall/apps/DemoApp/app/src/main/res/mipmap-xxhdpi/ic_video_round.png"
     },
     {
-        "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "/home/gillall/apps/DemoApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
-    },
-    {
         "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/layout_pixabay_item.xml.flat",
         "source": "/home/gillall/apps/DemoApp/app/src/main/res/layout/pixabay_item.xml"
+    },
+    {
+        "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/gillall/apps/DemoApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
         "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/layout_fragment_video_viewer.xml.flat",
         "source": "/home/gillall/apps/DemoApp/app/src/main/res/layout/fragment_video_viewer.xml"
     },
     {
-        "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/home/gillall/apps/DemoApp/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
-    },
-    {
         "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher_foreground.png.flat",
         "source": "/home/gillall/apps/DemoApp/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_launcher_foreground.png"
     },
     {
+        "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/gillall/apps/DemoApp/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_video_round.xml.flat",
         "source": "/home/gillall/apps/DemoApp/app/src/main/res/mipmap-anydpi-v26/ic_video_round.xml"
+    },
+    {
+        "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/layout_fragment_hub.xml.flat",
+        "source": "/home/gillall/apps/DemoApp/app/src/main/res/layout/fragment_hub.xml"
     },
     {
         "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_video.png.flat",
@@ -64,12 +68,12 @@
         "source": "/home/gillall/apps/DemoApp/app/src/main/res/mipmap-xhdpi/ic_video.png"
     },
     {
-        "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_video_round.png.flat",
-        "source": "/home/gillall/apps/DemoApp/app/src/main/res/mipmap-hdpi/ic_video_round.png"
-    },
-    {
         "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/anim_layout_animation.xml.flat",
         "source": "/home/gillall/apps/DemoApp/app/src/main/res/anim/layout_animation.xml"
+    },
+    {
+        "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_video_round.png.flat",
+        "source": "/home/gillall/apps/DemoApp/app/src/main/res/mipmap-hdpi/ic_video_round.png"
     },
     {
         "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_video.xml.flat",
@@ -100,6 +104,10 @@
         "source": "/home/gillall/apps/DemoApp/app/src/main/res/drawable/ic_launcher_background.xml"
     },
     {
+        "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/layout_fragment_image_gallery.xml.flat",
+        "source": "/home/gillall/apps/DemoApp/app/src/main/res/layout/fragment_image_gallery.xml"
+    },
+    {
         "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_foreground.png.flat",
         "source": "/home/gillall/apps/DemoApp/app/build/generated/res/pngs/debug/drawable-hdpi/ic_launcher_foreground.png"
     },
@@ -108,20 +116,12 @@
         "source": "/home/gillall/apps/DemoApp/app/src/main/res/navigation/navigation.xml"
     },
     {
-        "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/layout_fragment_image_viewer.xml.flat",
-        "source": "/home/gillall/apps/DemoApp/app/src/main/res/layout/fragment_image_viewer.xml"
-    },
-    {
         "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_video_round.png.flat",
         "source": "/home/gillall/apps/DemoApp/app/src/main/res/mipmap-xhdpi/ic_video_round.png"
     },
     {
-        "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/layout_image_gallery_fragment.xml.flat",
-        "source": "/home/gillall/apps/DemoApp/app/src/main/res/layout/image_gallery_fragment.xml"
-    },
-    {
-        "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/layout_video_gallery_fragment.xml.flat",
-        "source": "/home/gillall/apps/DemoApp/app/src/main/res/layout/video_gallery_fragment.xml"
+        "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/layout_fragment_image_viewer.xml.flat",
+        "source": "/home/gillall/apps/DemoApp/app/src/main/res/layout/fragment_image_viewer.xml"
     },
     {
         "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/drawable_checkin.png.flat",
@@ -130,6 +130,10 @@
     {
         "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/drawable_defaultevent.png.flat",
         "source": "/home/gillall/apps/DemoApp/app/src/main/res/drawable/defaultevent.png"
+    },
+    {
+        "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/layout_fragment_video_gallery.xml.flat",
+        "source": "/home/gillall/apps/DemoApp/app/src/main/res/layout/fragment_video_gallery.xml"
     },
     {
         "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/anim_item_animation_fall_down.xml.flat",
@@ -160,12 +164,12 @@
         "source": "/home/gillall/apps/DemoApp/app/src/main/res/layout/dialog_location.xml"
     },
     {
-        "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/gillall/apps/DemoApp/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/layout_sdevent_recycle_item.xml.flat",
+        "source": "/home/gillall/apps/DemoApp/app/src/main/res/layout/sdevent_recycle_item.xml"
     },
     {
-        "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/layout_sdevent_view.xml.flat",
-        "source": "/home/gillall/apps/DemoApp/app/src/main/res/layout/sdevent_view.xml"
+        "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/gillall/apps/DemoApp/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
@@ -192,19 +196,15 @@
         "source": "/home/gillall/apps/DemoApp/app/src/main/res/drawable/share1.png"
     },
     {
-        "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/home/gillall/apps/DemoApp/app/src/main/res/mipmap-hdpi/ic_launcher.png"
-    },
-    {
         "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/layout_dialog_checkin.xml.flat",
         "source": "/home/gillall/apps/DemoApp/app/src/main/res/layout/dialog_checkin.xml"
     },
     {
-        "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_video.png.flat",
-        "source": "/home/gillall/apps/DemoApp/app/src/main/res/mipmap-hdpi/ic_video.png"
+        "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/gillall/apps/DemoApp/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/layout_hub_fragment.xml.flat",
-        "source": "/home/gillall/apps/DemoApp/app/src/main/res/layout/hub_fragment.xml"
+        "merged": "/home/gillall/apps/DemoApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_video.png.flat",
+        "source": "/home/gillall/apps/DemoApp/app/src/main/res/mipmap-hdpi/ic_video.png"
     }
 ]

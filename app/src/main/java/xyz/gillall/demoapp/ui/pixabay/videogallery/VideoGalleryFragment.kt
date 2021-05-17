@@ -10,11 +10,11 @@ import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import org.koin.androidx.viewmodel.ext.android.getViewModel
 import xyz.gillall.demoapp.R
-import xyz.gillall.demoapp.databinding.VideoGalleryFragmentBinding
+import xyz.gillall.demoapp.databinding.FragmentVideoGalleryBinding
 
 class VideoGalleryFragment : Fragment() {
 
-    private lateinit var binding: VideoGalleryFragmentBinding
+    private lateinit var binding: FragmentVideoGalleryBinding
     private lateinit var navController: NavController
     private lateinit var viewModel: VideoGalleryViewModel
 
@@ -24,7 +24,8 @@ class VideoGalleryFragment : Fragment() {
     ): View {
         viewModel = getViewModel()
         binding = DataBindingUtil
-            .inflate(inflater, R.layout.video_gallery_fragment, container, false)
+            .inflate(inflater, R.layout.fragment_video_gallery, container, false)
+        binding.root.context
         binding.lifecycleOwner = this
         binding.viewModel = viewModel
         viewModel.updateByViewModel.observe(viewLifecycleOwner, {

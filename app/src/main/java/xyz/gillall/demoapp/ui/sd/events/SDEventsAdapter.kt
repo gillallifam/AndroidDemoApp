@@ -6,13 +6,13 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import xyz.gillall.demoapp.databinding.SdeventViewBinding
+import xyz.gillall.demoapp.databinding.SdeventRecycleItemBinding
 import xyz.gillall.demoapp.model.sd.SDEvent
 
 class SDEventsAdapter(private val clickListener: SDEventClickListener):
     ListAdapter<SDEvent, SDEventsAdapter.ViewHolder>(NewsDiffCallback()) {
 
-    class ViewHolder private constructor(private val binding: SdeventViewBinding) : RecyclerView.ViewHolder(binding.root) {
+    class ViewHolder private constructor(private val binding: SdeventRecycleItemBinding) : RecyclerView.ViewHolder(binding.root) {
 
         fun bind(item: SDEvent, clickListener: SDEventClickListener) {
             binding.item = item
@@ -23,7 +23,7 @@ class SDEventsAdapter(private val clickListener: SDEventClickListener):
         companion object {
             fun from(parent: ViewGroup): ViewHolder {
                 val layoutInflater = LayoutInflater.from(parent.context)
-                val binding = SdeventViewBinding.inflate(layoutInflater, parent, false)
+                val binding = SdeventRecycleItemBinding.inflate(layoutInflater, parent, false)
                 return ViewHolder(binding)
             }
         }

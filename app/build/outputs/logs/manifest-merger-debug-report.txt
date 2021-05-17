@@ -9,6 +9,7 @@ MERGED from [androidx.databinding:databinding-runtime:4.2.1] /home/gillall/.grad
 MERGED from [io.insert-koin:koin-android-ext:3.0.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/4d8a6d17db6d2251eff30e7975e9e264/jetified-koin-android-ext-3.0.1/AndroidManifest.xml:2:1-9:12
 MERGED from [io.insert-koin:koin-androidx-workmanager:3.0.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/cb87c9a7796692ee2b4edf2b563b10bf/jetified-koin-androidx-workmanager-3.0.1/AndroidManifest.xml:2:1-9:12
 MERGED from [io.insert-koin:koin-android:3.0.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/daf6ceb3a8c711385c4f0bbcc848f35d/jetified-koin-android-3.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/fac8deee472b2e92e02806bea33f8d27/jetified-leakcanary-android-2.7/AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /home/gillall/.gradle/caches/transforms-2/files-2.1/d585a8423e98c7c7d1469eeb404cba9c/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment-ktx:1.3.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/ffdf014befd56baa64e3f975935b21b7/jetified-fragment-ktx-1.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /home/gillall/.gradle/caches/transforms-2/files-2.1/ec60473c9e1156d01fc364634a45f7c6/navigation-ui-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
@@ -24,6 +25,8 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /home/gillall/.gra
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/88a483084d2a124d0ca04f91b616c389/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/f6f7782a6db0653f20bc44ae21f94847/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-maps:17.0.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/0a97d3c6be2f30433ffb2470dbd9cd08/jetified-play-services-maps-17.0.1/AndroidManifest.xml:17:1-44:12
+MERGED from [androidx.room:room-ktx:2.3.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/b16e200ff321c4956f258e28c9fff074/jetified-room-ktx-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore-preferences:1.0.0-beta01] /home/gillall/.gradle/caches/transforms-2/files-2.1/7133335f6e242a57d06f717a28dcb634/jetified-datastore-preferences-1.0.0-beta01/AndroidManifest.xml:17:1-24:12
 MERGED from [com.github.bumptech.glide:glide:4.11.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/dac07734528a664968159c2ffd3e1439/jetified-glide-4.11.0/AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.multidex:multidex:2.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/d3b42533b7407c0d848420fe94bf198f/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.databinding:viewbinding:4.2.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/b91bb87e5513138ea6ba48ac3e717c90/jetified-viewbinding-4.2.1/AndroidManifest.xml:17:1-22:12
@@ -61,27 +64,35 @@ MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.0] /home/gillall/.grad
 MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/e28e52ae522f7c2266752018e135488f/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/f37df7350046874179fd65a82c6d250b/lifecycle-runtime-2.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/dd5b67a1537399888bf840cfd82e0468/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:17:1-76:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/8e5d4e88fa58111e58d9c194070e9f7f/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore:1.0.0-beta01] /home/gillall/.gradle/caches/transforms-2/files-2.1/1fde672d48ed470c89de723579e0a93a/jetified-datastore-1.0.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/11fe2aadfaf2b139a737e5a56cf84e1d/jetified-leakcanary-object-watcher-android-androidx-2.7/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/798d40f63c9a5d10fbee6492e58b311a/jetified-leakcanary-object-watcher-android-support-fragments-2.7/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/d3406b6a3a32a84a352f5e467b0ab4ed/jetified-leakcanary-object-watcher-android-2.7/AndroidManifest.xml:2:1-15:12
+MERGED from [com.squareup.leakcanary:plumber-android:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/4aaea181a107046cacda2d3710592c51/jetified-plumber-android-2.7/AndroidManifest.xml:2:1-15:12
 MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/ea4174d878a7ffc04edfce51289f48a0/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.leakcanary:leakcanary-android-utils:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/c9380ab44df775b2aa670c923b6bb5d1/jetified-leakcanary-android-utils-2.7/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.curtains:curtains:1.0.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/cdca259fff6037f8d3f8dc19e3018ec9/jetified-curtains-1.0.1/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/e03ee64429f55321ee0379ad1927620b/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/65d72ca59aa15f43ee6a5fe77456cefe/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/f7790241f7339c037b2ad5425f9a95fb/jetified-lifecycle-viewmodel-savedstate-2.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/de4af579dea245774f4c92967b31e37b/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.3.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/bdfc687db1106a8e49fe2f526986ec97/room-runtime-2.3.0/AndroidManifest.xml:17:1-31:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/b4073d1bc68cf8650187668a3b0a2caf/jetified-gifdecoder-4.11.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/85023fdea3de6bbc456e97980956b419/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/03af82de92f7425ae7d769cc0c998d18/lifecycle-livedata-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/1e8e31574b762840d07f701dea28a28b/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.room:room-runtime:2.2.5] /home/gillall/.gradle/caches/transforms-2/files-2.1/2ef754bd64a51a8f8573490c203190b9/room-runtime-2.2.5/AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/576edaf4f56ba3903e7fdee6eaeb54cc/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.1.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/2e674751967ec3205ccb7ba7875894c8/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/f1b6f617ca575070a9285bc3d336ccad/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/7a9c0125ff88f19996501f33f874091d/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/23afa6e6bdf3fab0479963bcdb27d613/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/4af603c5aa22ee47f688bde2aec162a7/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.tracing:tracing:1.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/c378a8db87a70d6ac3ba243ad071937c/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/59cc26f68fa30b395cf51289e947470e/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.sqlite:sqlite:2.1.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/df66e7d310089f46c747b5a7e349aa68/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/685fbaa2377e49e5bfe7b0105dfc8fa1/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/c378a8db87a70d6ac3ba243ad071937c/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/6d67f6103fc42e35369c580f198245b4/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 INJECTED from /home/gillall/apps/DemoApp/app/src/main/AndroidManifest.xml:2:1-22:12
 INJECTED from /home/gillall/apps/DemoApp/app/src/main/AndroidManifest.xml:2:1-22:12
 INJECTED from /home/gillall/apps/DemoApp/app/src/main/AndroidManifest.xml:2:1-22:12
@@ -107,6 +118,8 @@ MERGED from [io.insert-koin:koin-androidx-workmanager:3.0.1] /home/gillall/.grad
 MERGED from [io.insert-koin:koin-androidx-workmanager:3.0.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/cb87c9a7796692ee2b4edf2b563b10bf/jetified-koin-androidx-workmanager-3.0.1/AndroidManifest.xml:7:5-20
 MERGED from [io.insert-koin:koin-android:3.0.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/daf6ceb3a8c711385c4f0bbcc848f35d/jetified-koin-android-3.0.1/AndroidManifest.xml:7:5-20
 MERGED from [io.insert-koin:koin-android:3.0.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/daf6ceb3a8c711385c4f0bbcc848f35d/jetified-koin-android-3.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/fac8deee472b2e92e02806bea33f8d27/jetified-leakcanary-android-2.7/AndroidManifest.xml:22:5-26:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/fac8deee472b2e92e02806bea33f8d27/jetified-leakcanary-android-2.7/AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.material:material:1.3.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/edf47a494eccf497377a198abf6c3631/material-1.3.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/edf47a494eccf497377a198abf6c3631/material-1.3.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/gillall/.gradle/caches/transforms-2/files-2.1/17c88e50d792807417ff7bba87141383/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
@@ -129,10 +142,16 @@ MERGED from [androidx.core:core:1.3.2] /home/gillall/.gradle/caches/transforms-2
 MERGED from [androidx.core:core:1.3.2] /home/gillall/.gradle/caches/transforms-2/files-2.1/6a6d7e7739edcb80c7aea2a28943d0ff/core-1.3.2/AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/dd5b67a1537399888bf840cfd82e0468/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/dd5b67a1537399888bf840cfd82e0468/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:28:5-74:19
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:28:5-74:19
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/d3406b6a3a32a84a352f5e467b0ab4ed/jetified-leakcanary-object-watcher-android-2.7/AndroidManifest.xml:7:5-13:19
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/d3406b6a3a32a84a352f5e467b0ab4ed/jetified-leakcanary-object-watcher-android-2.7/AndroidManifest.xml:7:5-13:19
+MERGED from [com.squareup.leakcanary:plumber-android:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/4aaea181a107046cacda2d3710592c51/jetified-plumber-android-2.7/AndroidManifest.xml:7:5-13:19
+MERGED from [com.squareup.leakcanary:plumber-android:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/4aaea181a107046cacda2d3710592c51/jetified-plumber-android-2.7/AndroidManifest.xml:7:5-13:19
+MERGED from [androidx.room:room-runtime:2.3.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/bdfc687db1106a8e49fe2f526986ec97/room-runtime-2.3.0/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.3.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/bdfc687db1106a8e49fe2f526986ec97/room-runtime-2.3.0/AndroidManifest.xml:24:5-29:19
 MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/b4073d1bc68cf8650187668a3b0a2caf/jetified-gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/b4073d1bc68cf8650187668a3b0a2caf/jetified-gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
-MERGED from [androidx.room:room-runtime:2.2.5] /home/gillall/.gradle/caches/transforms-2/files-2.1/2ef754bd64a51a8f8573490c203190b9/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
-MERGED from [androidx.room:room-runtime:2.2.5] /home/gillall/.gradle/caches/transforms-2/files-2.1/2ef754bd64a51a8f8573490c203190b9/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.2] /home/gillall/.gradle/caches/transforms-2/files-2.1/6a6d7e7739edcb80c7aea2a28943d0ff/core-1.3.2/AndroidManifest.xml:24:18-86
 	android:supportsRtl
@@ -177,6 +196,8 @@ MERGED from [io.insert-koin:koin-androidx-workmanager:3.0.1] /home/gillall/.grad
 MERGED from [io.insert-koin:koin-androidx-workmanager:3.0.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/cb87c9a7796692ee2b4edf2b563b10bf/jetified-koin-androidx-workmanager-3.0.1/AndroidManifest.xml:5:5-44
 MERGED from [io.insert-koin:koin-android:3.0.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/daf6ceb3a8c711385c4f0bbcc848f35d/jetified-koin-android-3.0.1/AndroidManifest.xml:5:5-44
 MERGED from [io.insert-koin:koin-android:3.0.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/daf6ceb3a8c711385c4f0bbcc848f35d/jetified-koin-android-3.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/fac8deee472b2e92e02806bea33f8d27/jetified-leakcanary-android-2.7/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/fac8deee472b2e92e02806bea33f8d27/jetified-leakcanary-android-2.7/AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /home/gillall/.gradle/caches/transforms-2/files-2.1/d585a8423e98c7c7d1469eeb404cba9c/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /home/gillall/.gradle/caches/transforms-2/files-2.1/d585a8423e98c7c7d1469eeb404cba9c/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment-ktx:1.3.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/ffdf014befd56baa64e3f975935b21b7/jetified-fragment-ktx-1.3.0/AndroidManifest.xml:20:5-22:41
@@ -207,6 +228,10 @@ MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/gillall/.gradle/cach
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/f6f7782a6db0653f20bc44ae21f94847/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:17.0.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/0a97d3c6be2f30433ffb2470dbd9cd08/jetified-play-services-maps-17.0.1/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:17.0.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/0a97d3c6be2f30433ffb2470dbd9cd08/jetified-play-services-maps-17.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.3.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/b16e200ff321c4956f258e28c9fff074/jetified-room-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.3.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/b16e200ff321c4956f258e28c9fff074/jetified-room-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0-beta01] /home/gillall/.gradle/caches/transforms-2/files-2.1/7133335f6e242a57d06f717a28dcb634/jetified-datastore-preferences-1.0.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0-beta01] /home/gillall/.gradle/caches/transforms-2/files-2.1/7133335f6e242a57d06f717a28dcb634/jetified-datastore-preferences-1.0.0-beta01/AndroidManifest.xml:20:5-22:41
 MERGED from [com.github.bumptech.glide:glide:4.11.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/dac07734528a664968159c2ffd3e1439/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
 MERGED from [com.github.bumptech.glide:glide:4.11.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/dac07734528a664968159c2ffd3e1439/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.multidex:multidex:2.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/d3b42533b7407c0d848420fe94bf198f/multidex-2.0.0/AndroidManifest.xml:20:5-43
@@ -281,10 +306,26 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0] /home/gillall/.gradle/c
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/f37df7350046874179fd65a82c6d250b/lifecycle-runtime-2.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/dd5b67a1537399888bf840cfd82e0468/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/dd5b67a1537399888bf840cfd82e0468/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/8e5d4e88fa58111e58d9c194070e9f7f/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/8e5d4e88fa58111e58d9c194070e9f7f/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0-beta01] /home/gillall/.gradle/caches/transforms-2/files-2.1/1fde672d48ed470c89de723579e0a93a/jetified-datastore-1.0.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0-beta01] /home/gillall/.gradle/caches/transforms-2/files-2.1/1fde672d48ed470c89de723579e0a93a/jetified-datastore-1.0.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/11fe2aadfaf2b139a737e5a56cf84e1d/jetified-leakcanary-object-watcher-android-androidx-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/11fe2aadfaf2b139a737e5a56cf84e1d/jetified-leakcanary-object-watcher-android-androidx-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/798d40f63c9a5d10fbee6492e58b311a/jetified-leakcanary-object-watcher-android-support-fragments-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/798d40f63c9a5d10fbee6492e58b311a/jetified-leakcanary-object-watcher-android-support-fragments-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/d3406b6a3a32a84a352f5e467b0ab4ed/jetified-leakcanary-object-watcher-android-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/d3406b6a3a32a84a352f5e467b0ab4ed/jetified-leakcanary-object-watcher-android-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:plumber-android:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/4aaea181a107046cacda2d3710592c51/jetified-plumber-android-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:plumber-android:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/4aaea181a107046cacda2d3710592c51/jetified-plumber-android-2.7/AndroidManifest.xml:5:5-44
 MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/ea4174d878a7ffc04edfce51289f48a0/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/ea4174d878a7ffc04edfce51289f48a0/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.leakcanary:leakcanary-android-utils:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/c9380ab44df775b2aa670c923b6bb5d1/jetified-leakcanary-android-utils-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-utils:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/c9380ab44df775b2aa670c923b6bb5d1/jetified-leakcanary-android-utils-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.curtains:curtains:1.0.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/cdca259fff6037f8d3f8dc19e3018ec9/jetified-curtains-1.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.squareup.curtains:curtains:1.0.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/cdca259fff6037f8d3f8dc19e3018ec9/jetified-curtains-1.0.1/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/e03ee64429f55321ee0379ad1927620b/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/e03ee64429f55321ee0379ad1927620b/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/65d72ca59aa15f43ee6a5fe77456cefe/cardview-1.0.0/AndroidManifest.xml:20:5-44
@@ -293,6 +334,8 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0] /home/gill
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/f7790241f7339c037b2ad5425f9a95fb/jetified-lifecycle-viewmodel-savedstate-2.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/de4af579dea245774f4c92967b31e37b/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/de4af579dea245774f4c92967b31e37b/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.3.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/bdfc687db1106a8e49fe2f526986ec97/room-runtime-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.3.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/bdfc687db1106a8e49fe2f526986ec97/room-runtime-2.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/b4073d1bc68cf8650187668a3b0a2caf/jetified-gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/b4073d1bc68cf8650187668a3b0a2caf/jetified-gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/85023fdea3de6bbc456e97980956b419/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
@@ -301,8 +344,6 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /home/gillall/.gradle/
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/03af82de92f7425ae7d769cc0c998d18/lifecycle-livedata-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/1e8e31574b762840d07f701dea28a28b/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/1e8e31574b762840d07f701dea28a28b/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.room:room-runtime:2.2.5] /home/gillall/.gradle/caches/transforms-2/files-2.1/2ef754bd64a51a8f8573490c203190b9/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.room:room-runtime:2.2.5] /home/gillall/.gradle/caches/transforms-2/files-2.1/2ef754bd64a51a8f8573490c203190b9/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/576edaf4f56ba3903e7fdee6eaeb54cc/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/576edaf4f56ba3903e7fdee6eaeb54cc/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.1.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/2e674751967ec3205ccb7ba7875894c8/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -315,14 +356,14 @@ MERGED from [androidx.print:print:1.0.0] /home/gillall/.gradle/caches/transforms
 MERGED from [androidx.print:print:1.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/23afa6e6bdf3fab0479963bcdb27d613/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/4af603c5aa22ee47f688bde2aec162a7/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/4af603c5aa22ee47f688bde2aec162a7/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.tracing:tracing:1.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/c378a8db87a70d6ac3ba243ad071937c/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/c378a8db87a70d6ac3ba243ad071937c/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/59cc26f68fa30b395cf51289e947470e/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/59cc26f68fa30b395cf51289e947470e/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite:2.1.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/df66e7d310089f46c747b5a7e349aa68/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite:2.1.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/df66e7d310089f46c747b5a7e349aa68/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/685fbaa2377e49e5bfe7b0105dfc8fa1/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/685fbaa2377e49e5bfe7b0105dfc8fa1/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/c378a8db87a70d6ac3ba243ad071937c/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/c378a8db87a70d6ac3ba243ad071937c/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/6d67f6103fc42e35369c580f198245b4/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/6d67f6103fc42e35369c580f198245b4/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 INJECTED from /home/gillall/apps/DemoApp/app/src/main/AndroidManifest.xml
 INJECTED from /home/gillall/apps/DemoApp/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -333,6 +374,12 @@ INJECTED from /home/gillall/apps/DemoApp/app/src/main/AndroidManifest.xml
 		INJECTED from /home/gillall/apps/DemoApp/app/src/main/AndroidManifest.xml
 		ADDED from /home/gillall/apps/DemoApp/app/src/main/AndroidManifest.xml
 		INJECTED from /home/gillall/apps/DemoApp/app/src/main/AndroidManifest.xml
+service#leakcanary.internal.HeapAnalyzerService
+ADDED from [com.squareup.leakcanary:leakcanary-android:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/fac8deee472b2e92e02806bea33f8d27/jetified-leakcanary-android-2.7/AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/fac8deee472b2e92e02806bea33f8d27/jetified-leakcanary-android-2.7/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/fac8deee472b2e92e02806bea33f8d27/jetified-leakcanary-android-2.7/AndroidManifest.xml:24:13-67
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-maps:17.0.1] /home/gillall/.gradle/caches/transforms-2/files-2.1/0a97d3c6be2f30433ffb2470dbd9cd08/jetified-play-services-maps-17.0.1/AndroidManifest.xml:23:5-79
 MERGED from [androidx.work:work-runtime:2.5.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:26:5-79
@@ -385,6 +432,8 @@ ADDED from [androidx.work:work-runtime:2.5.0] /home/gillall/.gradle/caches/trans
 		ADDED from [androidx.work:work-runtime:2.5.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:27:22-78
 uses-permission#android.permission.FOREGROUND_SERVICE
 ADDED from [androidx.work:work-runtime:2.5.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:28:5-77
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:26:5-77
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:26:5-77
 	android:name
 		ADDED from [androidx.work:work-runtime:2.5.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:28:22-74
 provider#androidx.work.impl.WorkManagerInitializer
@@ -599,11 +648,111 @@ action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
 ADDED from [androidx.work:work-runtime:2.5.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:138:17-88
 	android:name
 		ADDED from [androidx.work:work-runtime:2.5.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:138:25-85
-service#androidx.room.MultiInstanceInvalidationService
-ADDED from [androidx.room:room-runtime:2.2.5] /home/gillall/.gradle/caches/transforms-2/files-2.1/2ef754bd64a51a8f8573490c203190b9/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
-	android:exported
-		ADDED from [androidx.room:room-runtime:2.2.5] /home/gillall/.gradle/caches/transforms-2/files-2.1/2ef754bd64a51a8f8573490c203190b9/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
-	android:directBootAware
-		ADDED from [androidx.room:room-runtime:2.2.5] /home/gillall/.gradle/caches/transforms-2/files-2.1/2ef754bd64a51a8f8573490c203190b9/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:23:5-80
 	android:name
-		ADDED from [androidx.room:room-runtime:2.2.5] /home/gillall/.gradle/caches/transforms-2/files-2.1/2ef754bd64a51a8f8573490c203190b9/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:23:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:24:22-78
+provider#leakcanary.internal.LeakCanaryFileProvider
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:29:9-37:20
+	android:grantUriPermissions
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:33:13-47
+	android:authorities
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:31:13-88
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:30:13-70
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:34:13-36:66
+	android:resource
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:36:17-63
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:35:17-67
+activity#leakcanary.internal.activity.LeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:39:9-44:66
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:42:13-71
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:41:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:44:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:43:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:40:13-69
+activity-alias#leakcanary.internal.activity.LeakLauncherActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:46:9-63:26
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:49:13-66
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:52:13-71
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:50:13-36
+	android:targetActivity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:53:13-79
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:51:13-52
+	android:banner
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:48:13-59
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:55:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:54:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:47:13-77
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:56:13-62:29
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:61:17-86
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:61:27-83
+activity#leakcanary.internal.RequestStoragePermissionActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:65:9-71:68
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:69:13-82
+	android:excludeFromRecents
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:67:13-46
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:68:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:71:13-65
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:70:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:66:13-80
+receiver#leakcanary.internal.NotificationReceiver
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:73:9-77
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:73:19-74
+provider#leakcanary.internal.AppWatcherInstaller$MainProcess
+ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/d3406b6a3a32a84a352f5e467b0ab4ed/jetified-leakcanary-object-watcher-android-2.7/AndroidManifest.xml:8:9-12:40
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/d3406b6a3a32a84a352f5e467b0ab4ed/jetified-leakcanary-object-watcher-android-2.7/AndroidManifest.xml:11:13-69
+	android:authorities
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/d3406b6a3a32a84a352f5e467b0ab4ed/jetified-leakcanary-object-watcher-android-2.7/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/d3406b6a3a32a84a352f5e467b0ab4ed/jetified-leakcanary-object-watcher-android-2.7/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/d3406b6a3a32a84a352f5e467b0ab4ed/jetified-leakcanary-object-watcher-android-2.7/AndroidManifest.xml:9:13-79
+provider#leakcanary.internal.PlumberInstaller
+ADDED from [com.squareup.leakcanary:plumber-android:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/4aaea181a107046cacda2d3710592c51/jetified-plumber-android-2.7/AndroidManifest.xml:8:9-12:40
+	android:enabled
+		ADDED from [com.squareup.leakcanary:plumber-android:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/4aaea181a107046cacda2d3710592c51/jetified-plumber-android-2.7/AndroidManifest.xml:11:13-69
+	android:authorities
+		ADDED from [com.squareup.leakcanary:plumber-android:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/4aaea181a107046cacda2d3710592c51/jetified-plumber-android-2.7/AndroidManifest.xml:10:13-69
+	android:exported
+		ADDED from [com.squareup.leakcanary:plumber-android:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/4aaea181a107046cacda2d3710592c51/jetified-plumber-android-2.7/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:plumber-android:2.7] /home/gillall/.gradle/caches/transforms-2/files-2.1/4aaea181a107046cacda2d3710592c51/jetified-plumber-android-2.7/AndroidManifest.xml:9:13-64
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.3.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/bdfc687db1106a8e49fe2f526986ec97/room-runtime-2.3.0/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.3.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/bdfc687db1106a8e49fe2f526986ec97/room-runtime-2.3.0/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.3.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/bdfc687db1106a8e49fe2f526986ec97/room-runtime-2.3.0/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.3.0] /home/gillall/.gradle/caches/transforms-2/files-2.1/bdfc687db1106a8e49fe2f526986ec97/room-runtime-2.3.0/AndroidManifest.xml:26:13-74

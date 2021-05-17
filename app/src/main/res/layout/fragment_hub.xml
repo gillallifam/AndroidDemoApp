@@ -57,12 +57,13 @@
 
         <Button
             android:id="@+id/btnTst"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="tst"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/pixabayVideos" />
+            app:layout_constraintTop_toBottomOf="@+id/pixabayVideos"
+            app:layout_constraintWidth_percent=".7" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

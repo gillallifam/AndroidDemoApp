@@ -1,7 +1,17 @@
 package xyz.gillall.demoapp
 
+import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.datastore.core.DataStore
+import androidx.datastore.preferences.core.Preferences
+import androidx.datastore.preferences.core.edit
+import androidx.datastore.preferences.core.intPreferencesKey
+import androidx.datastore.preferences.preferencesDataStore
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.launch
 import org.koin.androidx.viewmodel.ext.android.getViewModel
 import xyz.gillall.demoapp.shared.SharedViewModel
 
@@ -32,7 +42,9 @@ import xyz.gillall.demoapp.shared.SharedViewModel
 
 class MainActivity : AppCompatActivity() {
 
+    val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = "settings")
     private lateinit var sharedViewModel: SharedViewModel
+    lateinit var context: Context
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -40,6 +52,27 @@ class MainActivity : AppCompatActivity() {
         sharedViewModel = getViewModel()
         sharedViewModel.sharedCall("Called from main")
         clg("shared",sharedViewModel)
+        context = this
+
+        val EXAMPLE_COUNTER = intPreferencesKey("example_counter")
+        val exampleCounterFlow: Flow<Int> = this.dataStore.data
+            .map { preferences ->
+                // No type safety.
+                preferences[EXAMPLE_COUNTER] ?: 0
+            }
+
+
+        clg(exampleCounterFlow)
+
+
+        GlobalScope.launch {
+                context.dataStore.edit { settings ->
+                    val currentCounterValue = settings[EXAMPLE_COUNTER] ?: 0
+                    settings[EXAMPLE_COUNTER] = currentCounterValue + 1
+                }
+
+        }
+
     }
 
     companion object {

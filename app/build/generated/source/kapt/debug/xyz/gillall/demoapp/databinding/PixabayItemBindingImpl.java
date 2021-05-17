@@ -20,7 +20,7 @@ public class PixabayItemBindingImpl extends PixabayItemBinding implements xyz.gi
     private final androidx.constraintlayout.widget.ConstraintLayout mboundView0;
     // variables
     @Nullable
-    private final android.view.View.OnClickListener mCallback1;
+    private final android.view.View.OnClickListener mCallback2;
     // values
     // listeners
     // Inverse Binding Event Handlers
@@ -41,7 +41,7 @@ public class PixabayItemBindingImpl extends PixabayItemBinding implements xyz.gi
         this.txtTitle.setTag(null);
         setRootTag(root);
         // listeners
-        mCallback1 = new xyz.gillall.demoapp.generated.callback.OnClickListener(this, 1);
+        mCallback2 = new xyz.gillall.demoapp.generated.callback.OnClickListener(this, 1);
         invalidateAll();
     }
 
@@ -144,7 +144,7 @@ public class PixabayItemBindingImpl extends PixabayItemBinding implements xyz.gi
         if ((dirtyFlags & 0x4L) != 0) {
             // api target 1
 
-            this.mboundView0.setOnClickListener(mCallback1);
+            this.mboundView0.setOnClickListener(mCallback2);
         }
         if ((dirtyFlags & 0x6L) != 0) {
             // api target 1

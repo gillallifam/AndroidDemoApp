@@ -1,11 +1,13 @@
 package xyz.gillall.demoapp.injection
 
 
+import org.koin.android.ext.koin.androidApplication
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.core.qualifier.named
 import org.koin.dsl.module
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+import xyz.gillall.demoapp.data.local.AppDatabase
 import xyz.gillall.demoapp.shared.SharedViewModel
 import xyz.gillall.demoapp.data.remote.PixabayApi
 import xyz.gillall.demoapp.data.remote.SDApi
@@ -22,10 +24,11 @@ import xyz.gillall.demoapp.ui.sd.events.SDEventsViewModel
 object AppModules {
 
     val SDTest1 = module {
+        single { AppDatabase.getDatabase(androidApplication()) }
         single(named("SDApi")) { provideSDApi() }
         single { SDEventsRepository(get(named("SDApi"))) }
         single(named("PixabayApi")) { providePixabayApi() }
-        single { ImageGalleryRepository(get(named("PixabayApi"))) }
+        single { ImageGalleryRepository(get(named("PixabayApi")), get()) }
         single { VideoGalleryRepository(get(named("PixabayApi"))) }
         viewModel { SharedViewModel() }
         viewModel { SDEventsViewModel(get()) }

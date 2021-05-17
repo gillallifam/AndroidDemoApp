@@ -1,7 +1,10 @@
 package xyz.gillall.demoapp.ui.pixabay.videogallery
 
+import android.content.Context
+import android.view.View
 import androidx.lifecycle.*
 import kotlinx.coroutines.launch
+import xyz.gillall.demoapp.MainActivity.Companion.clg
 import xyz.gillall.demoapp.model.Command
 import xyz.gillall.demoapp.model.pixabay.VideoHits
 import java.util.*
@@ -16,13 +19,18 @@ class VideoGalleryViewModel(private val repository: VideoGalleryRepository) : Vi
     init {
         Timer().schedule(1000) {
             tst = "Changed"
-            updateByViewModel.postValue(Command("update","{}"))
+            updateByViewModel.postValue(Command("update", "{}"))
         }
     }
 
     private val _videohits = MutableLiveData<VideoHits>()
     val videohits: LiveData<VideoHits>
         get() = _videohits
+
+    fun doClick(view: View, context: Context) {
+        clg(view, context)
+        clg(view.tag, view.id)
+    }
 
     fun getVideos(query: String, type: String, perpage: String) {
         if (!loaded) {

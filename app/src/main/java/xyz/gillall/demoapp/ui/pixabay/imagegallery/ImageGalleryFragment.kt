@@ -12,13 +12,13 @@ import androidx.recyclerview.widget.GridLayoutManager
 import org.koin.androidx.viewmodel.ext.android.getSharedViewModel
 import org.koin.androidx.viewmodel.ext.android.getViewModel
 import xyz.gillall.demoapp.R
-import xyz.gillall.demoapp.databinding.ImageGalleryFragmentBinding
+import xyz.gillall.demoapp.databinding.FragmentImageGalleryBinding
+
 import xyz.gillall.demoapp.shared.SharedViewModel
 import xyz.gillall.demoapp.ui.pixabay.ImageType
 
 class ImageGalleryFragment : Fragment() {
 
-    private lateinit var binding: ImageGalleryFragmentBinding
     private lateinit var navController: NavController
     private lateinit var sharedViewModel: SharedViewModel
     private lateinit var viewModel: ImageGalleryViewModel
@@ -31,15 +31,15 @@ class ImageGalleryFragment : Fragment() {
         sharedViewModel = getSharedViewModel()
         sharedViewModel.sharedCall("Called from fragment")
         viewModel = getViewModel()
-        binding = DataBindingUtil.inflate(inflater, R.layout.image_gallery_fragment, container, false)
+        val binding: FragmentImageGalleryBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_image_gallery, container, false)
         binding.lifecycleOwner = this
         binding.viewModel = viewModel
         navController = findNavController(this)
-        setupHits()
+        setupHits(binding)
         return binding.root
     }
 
-    private fun setupHits() {
+    private fun setupHits(binding: FragmentImageGalleryBinding) {
         hitsAdapter = ImageGalleryAdapter(HitClickListener() { hit, view ->
             val bundle = Bundle()
             bundle.putParcelable("hit", hit)

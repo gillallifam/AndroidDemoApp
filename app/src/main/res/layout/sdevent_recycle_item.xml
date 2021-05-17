@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
+
         <variable
             name="item"
             type="xyz.gillall.demoapp.model.sd.SDEvent" />
@@ -16,17 +17,17 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:tag="open"
         android:layout_margin="1dp"
-        android:onClick="@{(view) -> clickListener.onClick(item,view)}">
+        android:onClick="@{(view) -> clickListener.onClick(item,view)}"
+        android:tag="open">
 
         <ImageView
             android:id="@+id/pixGalleryItem"
             imagePlaceholderUrl="@{item.image}"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:scaleType="fitXY"
             android:contentDescription="@string/sd_event_item"
+            android:scaleType="fitXY"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
